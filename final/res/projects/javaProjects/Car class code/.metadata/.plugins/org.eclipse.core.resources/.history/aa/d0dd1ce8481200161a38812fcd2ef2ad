@@ -1,0 +1,64 @@
+/**
+ * This program will hold car information. 
+ * @author Raphael
+ *
+ */
+
+public class Car
+{
+	// Hold the year of the model of car.
+	private int yearModel;
+	// The hold the make of the car
+	private String make;
+	// Hold the speed of the vehicle.
+	private int speed;
+	
+	/**
+	 * The is constructor sets the yearModel and make of the car
+	 * also places the speed at 0.
+	 * @param yrMd
+	 * @param mke
+	 */
+	
+	public Car(int yrMd, String mke)
+	{
+		yearModel = yrMd;
+		make = mke;
+		speed = 0;
+	}
+	
+	public void setYearModel(int yrMod)
+	{
+		yearModel = yrMod;
+	}
+	
+	public void setMake (String mke)
+	{
+		make = mke;
+	}
+	
+	public void accelerate()
+	{
+		speed += 5;
+	}
+	
+	public void brake()
+	{
+		speed -= 5;
+	}
+	
+	public int getYearModel()
+	{
+		return yearModel;
+	}
+	
+	public String getMake()
+	{
+		return make;
+	}
+	
+	public int getSpeed()
+	{
+		return speed;
+	}
+}

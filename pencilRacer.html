@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Project Pencil Racers</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 	
+	<link rel="stylesheet" id="raphael.css" href="res/styles/raphael.css" type="text/css" media="all">
+	<script type="text/javascript" src="res/scripts/projects.js"></script> 
+
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	
+
+</head>
+<body>
+	<!-- Nav bar that I probably wont need because the projects should be in a jframe.
+	<nav class="navbar navbar-inverse">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+      			<a class="navbar-brand" href="index.html" id="titleLeft">RSandor</a>
+   			</div>
+    		<ul class="nav navbar-nav" id="titleRight">
+	  			<li><a href="#">Resume</a></li>
+      			<li><a href="#">Projects</a></li>
+	  			<li><a href="#">Blog</a></li>
+	  			<li><a href="#">Personal Interests</a></li>
+    		</ul>
+  		</div>
+	</nav>
+	-->
+	<div class="Container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="headTitle" >
+					<br>
+					<h1 class="projectTemplate" id="project"> Project: </h1>
+					<h1 class="projectTemplate" id="project"> Pencil Racers </h1>
+				</div>
+			</div>
+		</div>
+		<!-- Second row with Descriptio of the project -->
+		<div class="row">
+			<!-- Left side of the html -->
+			<div class="col-sm-4 projectTemplate">
+				<h1 class="projectTemplate" id="project"> Description: </h1>
+			</div>
+			<!-- Right side of the html -->
+			<div class="col-sm-8 projectTemplate">
+				<p> This was my first project at ODU, like most firsts there were a lot of new challenges. For one it was the first 1500+ line of code project and my first class in C++. I didn't really honour the principle of good top down design and ultimately that led to the A.I. cars being buggy at the end. </p>
+				<p> The program: The program was to read in a user's own grid, then control one car and let the computer control two others. The cars would pick up momentum moving in spefic direction and hitting walls or other cars would then kill the momentum of the vehicles. I was successful in everthing but the A.I. due to lack of time to finish. </p>
+			</div>
+		</div>
+
+		<div class="row projectTemplate">
+			<!-- Left side of the html -->
+			<div class="col-sm-4">
+				<h1  class="projectTemplate" id="project"> Objectives: </h1>
+			</div>
+			<!-- Right side of the html -->
+			<div class="col-sm-8">
+				<ul> 
+					<li> Top Down Design</li> 
+					<li> C++ Interface Design </li>
+					<li> ADTs </li>
+			</div>
+		</div>
+
+		<!-- Area for source file links/ screenshots etc -->
+		<div class="row projectTemplate">
+			<!-- Left side of the html -->
+			<div class="col-sm-4">
+				<h1  class="projectTemplate" id="project"> Source Code: </h1>
+			</div>
+			<!-- Right side of the html -->
+			<div class="col-sm-8">
+				<a onclick="fileClick('res/projects/cs333/finalproject/arrayUtils.h',projectFiles)"> arrayUtils.h </a> 
+				<br>
+				<a onclick="fileClick('res/projects/cs333/finalproject/computer1.cpp',projectFiles)"> A.I. Car  </a> <br>
+				<a onclick="fileClick('res/projects/cs333/finalproject/computer1.h', projectFiles)"> computer1.h </a> <br>
+				<a onclick="fileClick('res/projects/cs333/finalproject/computer3.h',projectFiles)"> computer3.h </a> <br>
+				<a onclick="fileClick('res/projects/cs333/finalproject/course.dat', projectFiles)"> course.dat </a> <br>
+				<a onclick="fileClick('res/projects/cs333/finalproject/course1.dat',projectFiles)"> course1.dat </a> <br>
+				<a onclick="fileClick('res/projects/cs333/finalproject/course3.dat',projectFiles)"> course3.dat </a> <br>
+				<a onclick="fileClick('res/projects/cs333/finalproject/course4.dat',projectFiles)"> course4.dat</a> <br>
+				<a onclick="fileClick('res/projects/cs333/finalproject/dllistUtils.h',projectFiles)"> dllistUtils.h</a> <br>
+				<a onclick="fileClick('res/projects/cs333/finalproject/game.cpp',projectFiles)"> game.cpp </a> <br>
+				<a onclick="fileClick('res/projects/cs333/finalproject/game.h',projectFiles)"> game.h </a> <br>
+				<a onclick="fileClick('res/projects/cs333/finalproject/gridRacer.cpp', projectFiles)"> gridRacer.cpp </a> <br>
+				<a onclick="fileClick('res/projects/cs333/finalproject/humanPlayer.cpp', projectFiles)"> humanPlayer.cpp </a> <br>
+				<a onclick="fileClick('res/projects/cs333/finalproject/humanPlayer.h', projectFiles)"> humanPlayer.h </a> <br>
+				<a onclick="fileClick('res/projects/cs333/finalproject/mapV4.cpp', projectFiles)"> mapV4.cpp </a> <br>
+				<a onclick="fileClick('res/projects/cs333/finalproject/map.h', projectFiles)"> map.h </a> <br>
+				<div id="projectFiles"></div>
+				</div>
+			</div>
+		</div>
+		<!-- Diagrams for the programs -->
+		<div class="row projectTemplate">
+			<!-- Left side of the html -->
+			<div class="col-sm-4">
+				<h1  class="projectTemplate" id="project"> Resources: </h1>
+			</div>
+			<!-- Right side of the html -->
+			<div class="col-sm-8">
+				<p> N.A., after this project I learned the importance of good design. Writing digrams before code, and tests before code.
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

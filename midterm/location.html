@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	 	<link rel="stylesheet" id="coffee.css" href="style/location.css" type="text/css" media="all">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>Coffee Shoppe</title>
+  	<link rel="icon" href="images/coffee.png">
+
+	
+	
+  </head>
+
+ <body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">The Coffee Shoppe</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="index.html">Home</a></li>
+      <li class="active">
+	<div class="dropdown">
+    	<button class="dropbtn">Menu 
+      		<i class="fa fa-caret-down"></i>
+    	</button>
+    <div class="dropdown-content">
+
+      <a href="food.html">Food</a>
+      <a href="colddrinks.html">Cold Drinks</a>
+      <a href="hotdrinks.html">Hot Drinks</a>
+    </div>
+  </div> 
+</li>
+      <li><a href="location.html">Location</a></li>
+      <li><a href="events.html">Events</a></li>
+	  <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+	<div class="row">
+
+<div class="col-sm-12">
+	
+	<h1 style="text-align: center;"> Our Location </h1>
+	<p style="text-align: center;"> 300 High Street, Portsmouth, Virginia  23704</p>
+	<hr>
+ <div id="map" style="width:75%;height:400px;"></div>
+<script>
+function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(36.8355835, -76.29961209999999),
+    zoom: 18,
+    mapTypeId: google.maps.MapTypeId.HYBRID,
+
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+map.setCenter(new google.maps.LatLng(36.8355835, -76.29961209999999))
+}
+</script>
+ <script src="https://maps.googleapis.com/maps/api/js?key= AIzaSyAZvBpt7joE4QVNs-wwJJlTV3bFZ1mkdi4&callback=myMap"></script> 
+
+
+	
+
+</div>
+</div>
+
+
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+
+			<nav class="navbar navbar-inverse">
+				  <div class="container-fluid">
+
+				<ul class="nav navbar-nav">
+
+					<li id="home">
+						<a href="index.html">Home </a>
+					</li>
+					<li id="contact">
+						<a href="contact.html">Contact</a>
+					</li>
+					
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<div class="footer">
+					<li>
+				 		Phone Number:
+					 	757-391-9191
+					</li>
+					<li>
+			 		300 High Street,
+					Portsmouth, Virginia  23704
+					</li>
+					</div>
+				</ul>
+				</div>
+			</nav>
+
+  	
+  </body>
+</html>

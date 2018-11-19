@@ -1,0 +1,24 @@
+/**
+ * This program will hold car information. 
+ * @author Raphael
+ *
+ */
+
+public class Car
+{
+	// Hold the year of the model of car.
+	private int yearModel;
+	// The hold the make of the car
+	private String make;
+	// Hold the speed of the vehicle.
+	private int speed;
+	
+	public Car(int yrMd, String mke)
+	{
+		yearModel = yrMd;
+		make = mke;
+		speed = 0;
+	}
+	
+	
+}

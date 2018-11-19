@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Blog</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 	
+	<link rel="stylesheet" id="raphael.css" href="res/styles/raphael.css" type="text/css" media="all">
+	<script type="text/javascript" src="res/scripts/a7.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	      <script type="text/javascript" src="res/scripts/projects.js"></script> 
+
+
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html" id="titleLeft">RSandor</a>
+    </div>
+    <ul class="nav navbar-nav" id="titleRight">
+	  <li><a href="resume.html">Resume</a></li>
+      <li><a href="projects.html">Projects</a></li>
+	  <li><a href="blog.html">Blog</a></li>
+	  <li><a href="personalInterests.html">Personal Interests</a></li>
+    </ul>
+  </div>
+</nav>
+		
+
+
+<div class="Container blog">
+	<div class="row">
+		<div class="col-sm-2">
+            <div class="contact">
+                <h3> Contact Information</h3>
+                <hr>
+                <p>Raphael J. Sandor </p>
+                <p><a href="mailto:rsand006@odu.edu">Contact: email</a></p>
+                <p> <a href="https://www.linkedin.com/in/raphael-sandor"> LinkedIn</a> </p>
+                <p></p>
+                <hr>
+            </div>
+            <div class="previousPosts">
+                <h3> Previous Posts</h3>
+                <hr>
+                <p><a href="post1.html" target="selected">OCA -4/01/18</a></p>
+                <p><a href="post2.html" target="selected">MTA -4/01/18</a></p>
+                <hr>
+            </div>
+        </div>
+		<div class="col-sm-10"> 
+            <iframe name="selected" scrolling="no" frameborder="0" src="post1.html" style="width: 100%"; onload="resizeIframe(this)">
+            </iframe>
+        </div>
+    </div>
+</div>
+</body>
+</html>

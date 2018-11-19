@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Smallpox</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 	
+	<link rel="stylesheet" id="raphael.css" href="res/styles/raphael.css" type="text/css" media="all">
+	<script type="text/javascript" src="res/scripts/projects.js"></script> 
+
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	
+
+  	
+
+</head>
+<body>
+
+	<div class="Container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="headTitle" >
+					<br>
+					<h1 class="projectTemplate" id="project"> Project: </h1>
+					<h1 class="projectTemplate" id="project"> Small Pox Simulation</h1>
+				</div>
+			</div>
+		</div>
+		<!-- Second row with Descriptio of the project -->
+		<div class="row">
+			<!-- Left side of the html -->
+			<div class="col-sm-4 projectTemplate">
+				<h1 class="projectTemplate" id="project"> Description: </h1>
+			</div>
+			<!-- Right side of the html -->
+			<div class="col-sm-8 projectTemplate">
+				<p> This project was my first time writing code in SML or any functional language at all. The main challenge was thinking in terms of recursion. </p>
+				<p> The project was to create a simulation of the impact of weaponized small pox on a town or city. 
+				We worked with a population of 5000 which we had to generate randomized data that reflected U.S. Census information in C++, then we were tasked with using the statistical model from the research paper<a href="https://www.sciencedirect.com/science/article/pii/S1201971206000968"> (here for more Information) </a>. </p> 
+				<p> The program would create totals for the number of people who have been contaminated each day, infected, and died, or the rare case surved the 15+ days. </p>
+			</div>
+		</div>
+
+		<div class="row projectTemplate">
+			<!-- Left side of the html -->
+			<div class="col-sm-4">
+				<h1  class="projectTemplate" id="project"> Objectives: </h1>
+			</div>
+			<!-- Right side of the html -->
+			<div class="col-sm-8">
+				<ul> 
+					<li> Functional Programming</li> 
+					<li> Thinkining in terms of recursion </li>
+					<li> Strongly Typed Programming Language Principles </li>
+			</div>
+		</div>
+
+		<!-- Area for source file links/ screenshots etc -->
+		<div class="row projectTemplate">
+			<!-- Left side of the html -->
+			<div class="col-sm-4">
+				<h1  class="projectTemplate" id="project"> Source Code: </h1>
+			</div>
+			<!-- Right side of the html -->
+
+
+			<div class="col-sm-8">
+				
+				<a onclick="fileClick('res/projects/cs355/completedProject1/smallpox.sml', projectFiles)"> smallPox simulation  </a> <br>
+				<a onclick="fileClick('res/projects/cs355/completedProject1/population_generator.cpp',  projectFiles)"> population_generator.cpp </a> <br>
+				<a onclick="fileClick('res/projects/cs355/completedProject1/person.h', projectFiles)"> person.h </a> <br>
+				<a onclick="fileClick('res/projects/cs355/completedProject1/makefile', projectFiles)"> makefile </a> <br>
+				<div id="projectFiles"></div>
+				</div>
+			</div>
+		</div>
+		<!-- Diagrams for the programs -->
+		<div class="row projectTemplate">
+			<!-- Left side of the html -->
+			<div class="col-sm-4">
+				<h1  class="projectTemplate" id="project"> Resources: </h1>
+			</div>
+			<!-- Right side of the html -->
+			<div class="col-sm-8">
+				<p> <a href="https://www.sciencedirect.com/science/article/pii/S1201971206000968"> Small pox paper </a> </p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

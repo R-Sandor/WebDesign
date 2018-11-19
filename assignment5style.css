@@ -1,0 +1,41 @@
+body{
+	text-align: center;
+	font-family: Palatino, serif;
+	font-size: 1.3em;
+}
+
+p{
+
+}
+
+.banner{
+
+}
+
+ul, li{
+	text-decoration: none;
+	list-style: none;
+
+}
+
+
+div.assignments{
+	margin: 0px 0px;
+background-color:grey;
+}
+
+
+a{
+	text-decoration: none;
+	color:black;
+
+}
+
+ a:hover {
+	color:blue;
+
+}
+h2{
+	margin: 0px 0px;
+}
+

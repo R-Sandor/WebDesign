@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Chomp</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 	
+	<link rel="stylesheet" id="raphael.css" href="res/styles/raphael.css" type="text/css" media="all">
+	<script type="text/javascript" src="res/scripts/projects.js"></script> 
+
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	
+
+</head>
+<body>
+
+	<div class="Container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="headTitle" >
+					<br>
+					<h1 class="projectTemplate" id="project"> Project: </h1>
+					<h1 class="projectTemplate" id="project"> Protien Matching </h1>
+				</div>
+			</div>
+		</div>
+		<!-- Second row with Descriptio of the project -->
+		<div class="row">
+			<!-- Left side of the html -->
+			<div class="col-sm-4 projectTemplate">
+				<h1 class="projectTemplate" id="project"> Description: </h1>
+			</div>
+			<!-- Right side of the html -->
+			<div class="col-sm-8 projectTemplate">
+				<p> This program was based on the premise of some research that professor Morris of Old Dominion University was working on. In which he helped biologist discover common amino acid chain among different ancient proteins.</p>
+			</div>
+		</div>
+
+		<div class="row projectTemplate">
+			<!-- Left side of the html -->
+			<div class="col-sm-4">
+				<h1  class="projectTemplate" id="project"> Objectives: </h1>
+			</div>
+			<!-- Right side of the html -->
+			<div class="col-sm-8">
+				<ul> 
+					<li> Matrix manipulation </li> 
+					<li> LinkedList</li>
+					<li> Key Finding</li>
+					
+			</div>
+		</div>
+
+		<!-- Area for source file links/ screenshots etc -->
+		<div class="row projectTemplate">
+			<!-- Left side of the html -->
+			<div class="col-sm-4">
+				<h1  class="projectTemplate" id="project"> Source Code: </h1>
+			</div>
+			<!-- Right side of the html -->
+			<div class="col-sm-8">
+				<a onclick="fileClick('res/projects/361/aminoAcidFinal/aminoacids/Acid.cpp',projectFiles)"> acid.cpp </a> 
+				<br>
+				<a onclick="fileClick('res/projects/361/aminoAcidFinal/aminoacids/Acid.h',projectFiles)"> acid.h </a> 
+				<br>
+				<a onclick="fileClick('res/projects/361/aminoAcidFinal/aminoacids/gnuPlotCommands.txt', projectFiles)"> GNUPlot Commands </a> <br>
+				<a onclick="fileClick('res/projects/361/aminoAcidFinal/aminoacids/main.cpp', projectFiles)"> main.cpp </a> <br>
+
+				<a onclick="fileClick('res/projects/361/aminoAcidFinal/aminoacids/makefile',projectFiles)"> makefile </a> <br>
+				<a onclick="fileClick('res/projects/361/aminoAcidFinal/aminoacids/Protein.h',projectFiles)"> Protein.h </a> <br>
+				<a onclick="fileClick('res/projects/361/aminoAcidFinal/aminoacids/solutionPts.h',projectFiles)"> solutionPts.h </a> <br>
+				<a onclick="fileClick('res/projects/361/aminoAcidFinal/aminoacids/Util.cpp',projectFiles)"> Util.cpp </a> <br>
+				<a onclick="fileClick('res/projects/361/aminoAcidFinal/aminoacids/Util.h',projectFiles)"> Util.h </a> <br>
+				<div id="projectFiles"></div>
+			</div>
+		</div>
+		<!-- Diagrams for the programs -->
+		<div class="row projectTemplate">
+			<!-- Left side of the html -->
+			<div class="col-sm-4">
+				<h1  class="projectTemplate" id="project"> Resources: </h1>
+			</div>
+			<!-- Right side of the html -->
+			<div class="col-sm-8">
+				<img style="width: 100%; height: 100%;" src="res/projects/361/project3/Screenshot from 2017-12-08 18-06-46.png">
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

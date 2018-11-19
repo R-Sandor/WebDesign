@@ -1,0 +1,250 @@
+#titleLeft{
+	font-size: 30px;
+	float: left;
+	color: white;
+}
+
+#titleRight{
+	float: right;
+	color:white;
+	font-size: 30px;
+}
+
+
+body{
+	color:black;
+
+}
+
+.jumbotron{
+	margin-bottom: 0px;
+	width: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: 0% 25%;
+}
+
+.navbar{
+	color:black;
+	margin-bottom: 0px;
+
+
+}
+
+#parallax.heading{
+	text-align: center;
+	padding-top: 150px;
+	color:white;
+	height:500px;
+}
+
+#botCenter.col-sm-12{
+	text-align: center;
+}
+
+p{
+	font-size: 1.2em;
+}
+
+#parallax {
+    /* The image used */
+    background-image: url(light.jpg);
+
+    /* Set a specific height */
+    height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+.zoom {
+    transition: transform .2s; /* Animation 
+    margin: 0 auto;*/
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+li {
+	font-size: 1.2em;
+}
+
+
+.badges {
+
+	height: 80%;
+	width: 25%;
+  object-fit: fill;}
+
+#comptia.badges {
+
+	height: 80%;
+	width: 25%;
+  object-fit: fill;}
+
+#project.projectTemplate{
+
+	display: inline;
+}
+
+#project{
+	padding-top: 50px;
+}
+
+#prjHd{
+		padding-top: 50px;
+
+}
+
+.projectTemplate{
+		padding-top: 50px;
+
+}
+
+.headTitle{
+	width:100%;
+	    height: 100px;
+	    text-align:left;
+	background-color: grey;
+
+}
+
+
+@media only screen 
+and (max-width : 320px) {
+    /* Styles */
+
+#comptia.badges{
+	padding-top: 100px;
+	height: 50%;
+	width: 30%;
+  object-fit: fill;}
+}
+
+
+
+1
+@media only screen 
+and (max-width : 400px) {
+    /* Styles */
+
+#comptia.badges{
+	padding-top: 100px;
+	height: 50%;
+	width: 30%;
+  object-fit: fill;}
+}
+
+}
+
+@media only screen 
+and (max-width : 500px) {
+    /* Styles */
+
+#comptia.badges{
+	padding-top: 100px;
+	height: 50%;
+	width: 30%;
+  object-fit: fill;}
+}
+
+@media only screen 
+and (max-width : 700px) {
+    /* Styles */
+
+#comptia.badges{
+	padding-top: 100px;
+	height: 50%;
+	width: 30%;
+  object-fit: fill;}
+}
+
+
+
+
+/*********************************************************************
+	Blog css below 
+**********************************************************************/
+.blog{
+	/*background-image: url(../img/DSC00878.JPG);
+	 background-repeat: no-repeat;
+    background-size: 100% 100%;
+	*/
+}
+
+
+/*********************************************************************
+	Blog Pages
+**********************************************************************/
+.blogpage{
+	background-color: lightblue;
+    background-size: 100% 100%;
+
+}
+/*
+	Blog page ancor
+*/
+#bpA{
+	color: red;
+	text-decoration-line: none;
+}
+
+
+/***********************************************************************
+	Resume
+************************************************************************/
+.executive{
+ 	text-align: center;
+}
+
+.core{
+	text-align: center;
+}
+
+.specialitiesHd{
+	text-align: center;
+}
+
+.specialitiesLft{
+	text-align: left;
+}
+.specialitiesRt{
+	text-align: right;
+}
+
+#skills{
+	text-align: left;
+		width: 50%;
+
+}
+#desc{
+	float: right;
+	width: 100%;
+}
+
+.education{
+	text-align: center;
+}
+
+/**************************************************************************
+	Projects Repo Page
+**************************************************************************/
+div.projectYear {
+    height: auto;
+    width: auto;
+    overflow-y: scroll;
+    margin-bottom: 100px;
+}
+
+div.yrPrj{
+	text-align: center;
+}
+
+div.projectSrc {
+	width: 500px; 
+}
+

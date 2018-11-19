@@ -1,0 +1,9 @@
+symptom('Typhoid', 'muscle_pain').
+symptom('Typhoid', 'bloating').
+symptom('Typhoid', 'constipation').
+symptom('Typhoid', 'nausea').
+symptom('Typhoid', 'vomiting').
+symptom('Typhoid', 'fatigue').
+symptom('Typhoid', 'fever').
+symptom('Typhoid', 'chills').
+symptom('Typhoid', 'loss_of_appetite').

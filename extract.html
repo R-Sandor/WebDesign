@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Extract</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 	
+	<link rel="stylesheet" id="raphael.css" href="res/styles/raphael.css" type="text/css" media="all">
+	<script type="text/javascript" src="res/scripts/projects.js"></script> 
+
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	
+
+</head>
+<body>
+	<!-- Nav bar that I probably wont need because the projects should be in a jframe.
+	<nav class="navbar navbar-inverse">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+      			<a class="navbar-brand" href="index.html" id="titleLeft">RSandor</a>
+   			</div>
+    		<ul class="nav navbar-nav" id="titleRight">
+	  			<li><a href="#">Resume</a></li>
+      			<li><a href="#">Projects</a></li>
+	  			<li><a href="#">Blog</a></li>
+	  			<li><a href="#">Personal Interests</a></li>
+    		</ul>
+  		</div>
+	</nav>
+	-->
+	<div class="Container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="headTitle" >
+					<br>
+					<h1 class="projectTemplate" id="project"> Project: </h1>
+					<h1 class="projectTemplate" id="project"> Personal Name Extractor </h1>
+				</div>
+			</div>
+		</div>
+		<!-- Second row with Descriptio of the project -->
+		<div class="row">
+			<!-- Left side of the html -->
+			<div class="col-sm-4 projectTemplate">
+				<h1 class="projectTemplate" id="project"> Description: </h1>
+			</div>
+			<!-- Right side of the html -->
+			<div class="col-sm-8 projectTemplate">
+				<p style="display: inline;"> This was a group project for CS350 (Software Engineering ), the program is supposed to be able to extract personal from a string, to do this the program needs to use several dictionaries, gazeteers, shingling(looking at a word to the left and right from a given position in a sentence), of words, among other things to return where a name is found in a block of text and place a tag around the name. Example: somebody named <xmp style="display: inline;"> <PER>NAME HERE </PER></xmp> went to... </p>
+				<p> We used the Gradle build system, communicated virtualy through Google Hangouts 4 or 5 times a week. We wrote test cases before developing code. Using JUnit tests. 
+			</div>
+		</div>
+
+		<div class="row projectTemplate">
+			<!-- Left side of the html -->
+			<div class="col-sm-4">
+				<h1  class="projectTemplate" id="project"> Objectives: </h1>
+			</div>
+			<!-- Right side of the html -->
+			<div class="col-sm-8">
+				<ul> 
+					<li> Build Management using Gradle </li> 
+					<li> Working in teams</li>
+					<li> Agile Development</li>
+					<li> Souce Control: Git (with GitLab)</li>
+					<li> Issue tracking with RedMine.com </li>
+					<li> Writing test cases</li>
+					<li> JUnit Testing </li>
+			</div>
+		</div>
+
+		<!-- Area for source file links/ screenshots etc -->
+		<div class="row projectTemplate">
+			<!-- Left side of the html -->
+			<div class="col-sm-4">
+				<h1  class="projectTemplate" id="project"> Source Code: </h1>
+			</div>
+			<!-- Right side of the html -->
+			<div class="col-sm-8">
+				<a onclick="fileClick('Blue2/src/main/java/edu/odu/cs/cs350/namex/LearningMachine.java',projectFiles)"> Blue2/src/main/java/edu/odu/cs/cs350/namex/LearningMachine.java</a> 
+				<br>
+				<a onclick="fileClick('Blue2/src/main/java/edu/odu/cs/cs350/namex/Librarian.java', projectFiles)"> Blue2/src/main/java/edu/odu/cs/cs350/namex/Librarian.java </a> <br>
+				<a onclick="fileClick('Blue2/src/main/java/edu/odu/cs/cs350/namex/Main.java',projectFiles)"> Blue2/src/main/java/edu/odu/cs/cs350/namex/Main.java </a> <br>
+				<a onclick="fileClick('Blue2/src/main/java/edu/odu/cs/cs350/namex/PersonalNameExtractor.java', projectFiles)"> Blue2/src/main/java/edu/odu/cs/cs350/namex/PersonalNameExtractor.java </a> <br>
+				<a onclick="fileClick('Blue2/src/main/java/edu/odu/cs/cs350/namex/Trainer.java',projectFiles)"> 
+				Blue2/src/main/java/edu/odu/cs/cs350/namex/Trainer.java </a> <br>
+				<div id="projectFiles"></div>
+
+				<h3> JUnit Tests </h3>
+				<p> Note that this was original in GitLab repository and followed Java convention for file structure for all files, I would give you a link to the repository but it is a private hosted repo by the college </p>
+				<a onclick="fileClick('Blue2/src/test/java/edu/odu/cs/cs350/namex/TestGazetteer.java', projectFiles)"> Blue2/src/test/java/edu/odu/cs/cs350/namex/TestGazetteer.java </a> <br>
+				<a onclick="fileClick('Blue2/src/test/java/edu/odu/cs/cs350/namex/TestLearningMachine.java', projectFiles)"> Blue2/src/test/java/edu/odu/cs/cs350/namex/TestLearningMachine.java </a> <br>
+				<a onclick="fileClick('Blue2/src/test/java/edu/odu/cs/cs350/namex/TestLexical.java', projectFiles)"> Blue2/src/test/java/edu/odu/cs/cs350/namex/TestLexical.java </a> <br>
+				<a onclick="fileClick('Blue2/src/test/java/edu/odu/cs/cs350/namex/TestLibrarian.java', projectFiles)"> Blue2/src/test/java/edu/odu/cs/cs350/namex/TestLibrarian.java </a> <br>
+				<a onclick="fileClick('Blue2/src/test/java/edu/odu/cs/cs350/namex/TestPartsOfSpeech.java', projectFiles)"> Blue2/src/test/java/edu/odu/cs/cs350/namex/TestPartsOfSpeech.java </a> <br>
+				<a onclick="fileClick('Blue2/src/test/java/edu/odu/cs/cs350/namex/TestPersonalNameExtractor.java', projectFiles)"> Blue2/src/test/java/edu/odu/cs/cs350/namex/TestPersonalNameExtractor.java </a> <br>
+				<a onclick="fileClick('Blue2/src/test/java/edu/odu/cs/cs350/namex/TestUtil.java', projectFiles)"> Blue2/src/test/java/edu/odu/cs/cs350/namex/TestUtil.java </a> <br>
+
+			</div>
+		</div>
+		<!-- Diagrams for the programs -->
+		<div class="row projectTemplate">
+			<!-- Left side of the html -->
+			<div class="col-sm-4">
+				<h1  class="projectTemplate" id="project"> Resources: </h1>
+			</div>
+			<!-- Right side of the html -->
+			<div class="col-sm-8">
+				<a onclick="fileClick('Blue2/src/main/resources/deploy.sh',projectFiles)"> Deploy Script</a> 
+				<br>
+				<a onclick="fileClick('Blue2/src/main/resources/TestLearningMachineLearn.txt', projectFiles)"> Blue2/src/main/resources/TestLearningMachineLearn.txt </a> <br>
+				<a onclick="fileClick('Blue2/src/main/resources/TestLexicalSeperate.txt',projectFiles)"> Blue2/src/main/resources/TestLexicalSeperate.txt</a> <br>
+				<a onclick="fileClick('Blue2/src/main/resources/TestLexicalText.txt', projectFiles)"> Blue2/src/main/resources/TestLexicalText.txt </a> <br>
+				<a onclick="fileClick('Blue2/src/main/resources/TestNER.txt',projectFiles)"> Blue2/src/main/resources/TestNER.txt </a> <br>
+				<a onclick="fileClick('Blue2/src/main/resources/TestPartOfSpeechText.txt',projectFiles)"> Blue2/src/main/resources/TestPartOfSpeechText.txt </a> <br>
+				<a onclick="fileClick('Blue2/src/main/resources/TestTrainLearningMachineText.txt',projectFiles)"> Blue2/src/main/resources/TestTrainLearningMachineText.txt </a> <br>
+				<a onclick="fileClick('Blue2/src/main/resources/TrainingData.txt',projectFiles)"> Blue2/src/main/resources/TrainingData.txt</a> <br>
+				<a onclick="fileClick('Blue2/src/main/resources/TrainingData2.txt',projectFiles)"> Blue2/src/main/resources/TrainingData2.txt Set 2 </a> <br>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Name Search</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 	
+	<link rel="stylesheet" id="raphael.css" href="res/styles/raphael.css" type="text/css" media="all">
+	<script type="text/javascript" src="res/scripts/projects.js"></script> 
+
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	
+
+</head>
+<body>
+	
+	<div class="Container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="headTitle" >
+					<br>
+					<h1 class="projectTemplate" id="project"> Project: </h1>
+					<h1 class="projectTemplate" id="project"> IO </h1>
+				</div>
+			</div>
+		</div>
+		<!-- Second row with Descriptio of the project -->
+		<div class="row">
+			<!-- Left side of the html -->
+			<div class="col-sm-4 projectTemplate">
+				<h1 class="projectTemplate" id="project"> Description: </h1>
+			</div>
+			<!-- Right side of the html -->
+			<div class="col-sm-8 projectTemplate">
+				<p> This consists of many smaller assignments that involved input of data. </p>
+			</div>
+		</div>
+
+		<div class="row projectTemplate">
+			<!-- Left side of the html -->
+			<div class="col-sm-4">
+				<h1  class="projectTemplate" id="project"> Objectives: </h1>
+			</div>
+			<!-- Right side of the html -->
+			<div class="col-sm-8">
+				<ul> 
+					<li> I.O.</li>
+			  
+				
+			</div>
+		</div>
+
+		<!-- Area for source file links/ screenshots etc -->
+		<div class="row projectTemplate">
+			<!-- Left side of the html -->
+			<div class="col-sm-4">
+				<h1  class="projectTemplate" id="project"> Source Code: </h1>
+			</div>
+			<!-- Right side of the html -->
+			<div class="col-sm-8">
+				<a onclick="fileClick('res/projects/itp100/Chapter 6/6-7.py', projectFiles)"> NameSearch.py </a> <br>
+				<a onclick="fileClick('res/projects/itp100/Chapter 6/Excercise 6.py', projectFiles)"> name.py </a> <br>
+				<a onclick="fileClick('res/projects/itp100/Chapter 6/friends.txt', projectFiles)"> friends.txt </a> <br>
+				<a onclick="fileClick('res/projects/itp100/Chapter 6/numbers.txt', projectFiles)"> numbers.txt</a> <br>
+				<a onclick="fileClick('res/projects/itp100/Chapter 6/philosophers.txt', projectFiles)"> philospher.txt</a> <br>
+				<a onclick="fileClick('res/projects/itp100/Chapter 6/ProgrammingExercise6.py', projectFiles)">ProgrammingExercise6 </a> <br>
+				<a onclick="fileClick('res/projects/itp100/Chapter 6/ProgrammingExercise9.py', projectFiles)"> ProgrammingExercise9.py </a> <br>
+				<div id="projectFiles"></div>
+				</div>
+			</div>
+		</div>
+		<!-- Diagrams for the programs -->
+		<div class="row projectTemplate">
+			<!-- Left side of the html -->
+			<div class="col-sm-4">
+				<h1  class="projectTemplate" id="project"> Resources: </h1>
+			</div>
+			<!-- Right side of the html -->
+			<div class="col-sm-8">
+				<h3> Exercise 9 Flowchart </h3>
+				<img style="text-align:center; width:50%; height: 50%;" src="res/projects/itp100/Chapter 6/Exercise9.jpg" >
+				<br>
+				<h3> Exercise 6 Flowchart </h3>
+				<img style="text-align:center; width:50%; height: 50%;" src="res/projects/itp100/Chapter 6/Exercise6.jpg" >
+				
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

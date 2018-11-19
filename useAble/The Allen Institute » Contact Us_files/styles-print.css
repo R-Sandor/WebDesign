@@ -1,0 +1,102 @@
+/************** Begin General Styles *******************/
+body {
+	background: #ffffff;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a {
+	color: #000000;
+	text-decoration: underline;
+}
+h1 {
+	font-size: 130%;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin-top: 0px;
+	color: #660000;
+}
+h2 {
+	font-size: 110%;
+	font-weight: bold;
+	color: #000000;
+}
+/************** Begin Links to MU and SISLT *******************/
+div.mu-sislt {
+	visibility: hidden;
+	background: transparent;
+	height: 0px;
+}
+
+/************** Main Content Styles ***************/
+#container {
+	width: 7.25in; 
+	float: none !important;
+	background: transparent;
+}
+#masthead {
+	visibility: hidden;
+	background: transparent;
+	height: 0px;
+}
+#logo {
+	visibility: hidden;
+	background: transparent;
+	height: 0px;
+}
+#mainContentContainer {
+	line-height: 150%;
+	background-color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+}
+#mainContent {
+	width: 7.25in;
+	background-color: #ffffff;
+}
+.rightNav {
+	visibility: hidden;
+	background: transparent;
+	height: 0px;
+	width: 0px;
+}	
+#tacticalAudienceContainer {
+	visibility: hidden;
+	background: transparent;
+	height: 0px;
+}
+#tacticalNav, #audienceNav, #primaryNav, #sectionBanner, #tertiaryLinks {
+	visibility: hidden;
+	background: transparent;
+	height: 0px;
+}
+#primaryNavFeatureContainer {
+	visibility: hidden;
+	background: transparent;
+	height: 0px;
+	width: 0px;
+}
+#colophon {
+	clear: both;
+	border-top: 1px solid #333333;
+	padding: 0px;
+	font-size: 9pt;
+	width: 7.25in;
+}
+#breadcrumbs {
+	font-size: 95%;
+	margin: 0px;
+}
+#topImage {
+	visibility: hidden;
+	background: transparent;
+	height: 0px;
+}
+#displayWidth {
+	width: 700px;
+	float: left;
+}
+/*Forms Styling */
+form {
+	margin: 0px;
+}

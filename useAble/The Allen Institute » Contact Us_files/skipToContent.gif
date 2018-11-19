@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="en" class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="en" class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+
+
+<head>
+    
+    <meta charset="utf-8"/>    
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>403 - Forbidden&#160;//&#160;Mizzou // University of Missouri</title>
+    
+    
+        
+        
+        
+        <link href="/styles/css/screen.css?updated=2015-05-22" media="all" rel="stylesheet"/>
+<script src="/scripts/min/mizzou-homepage-min.js"></script>
+
+
+<link href="/images/icons/favicon.ico" rel="icon"/>
+
+
+<link href="/images/icons/apple-touch-icon.png" rel="apple-touch-icon-precomposed"/>
+<meta content="Mizzou" name="apple-mobile-web-app-title"/>
+
+
+<meta content="Mizzou" name="application-name"/>
+<meta content="/images/icons/microsoft-pinned-site.png" name="msapplication-TileImage"/>
+<meta content="#f1b82d" name="msapplication-TileColor"/>
+
+        
+    
+    
+    
+    
+    
+    
+</head> 
+
+<body>
+
+    <div class="offset">
+        <a href="#nav">Skip to navigation</a>
+        <a href="#main-content">Skip to content</a>
+    </div>
+    
+    
+        
+        
+        
+        <div id="tactical">
+        <section>
+            <ul>
+                <li><a href="http://mualert.missouri.edu/" style="color:#f1b82d">MU Alert</a></li>
+                <li><a href="/directories/index.php">Directories</a></li>
+                <li><a href="http://map.missouri.edu/">Map</a></li>
+                <li><a href="/mizzou-a-z/a.php">Mizzou A&#8211;Z</a></li>
+                <li class="search-container">
+                    <form action="/search/" method="get"> 
+                        <div class="search">
+                            <input class="search-field" name="q" size="22" title="search field" type="text"/> 
+                            <input class="search-button" title="submit search" type="submit" value="Search"/>
+                        </div>
+                    </form>
+                </li>
+            </ul>
+            
+        </section>
+    </div>        
+    
+    
+    <div id="wrapper">
+    
+        <div class="header-wrapper">
+            
+            
+        
+        
+        
+        <header id="header" role="banner">  
+    <p class="logo"><a href="/">Mizzou Logo</a></p>
+    <h1 class="unit"><a href="/">Mizzou: University of Missouri</a></h1>
+</header>        
+    
+            
+        </div>
+    
+        <div class="nav-wrapper">
+            
+            
+        
+        
+        
+        <nav id="nav" role="navigation">
+        <ul>
+            <li class="home"><a href="/">Menu</a>
+                <ul>
+                    <li><a href="/about/index.php">About Mizzou</a></li>
+                    <li><a href="http://admissions.missouri.edu/">Undergraduate Admissions</a></li>
+                    <li><a href="http://gradstudies.missouri.edu/">Graduate Admissions</a></li>
+                    <li><a href="/colleges-schools/index.php">Colleges &amp; Schools</a></li>
+                    <li><a href="/divisions-departments/index.php">Divisions &amp;&#160;Departments</a></li>
+                    <li><a href="http://research.missouri.edu/">Research</a></li>
+                    <li><a href="/international/index.php">International</a></li>
+                    <li><a href="/libraries-museums/index.php">Libraries &amp; Museums</a></li>
+                    <li><a href="http://www.muhealth.org/">MU Health Care</a></li>
+                    <li><a href="http://extension.missouri.edu/">MU Extension</a></li>
+                    <li><a href="http://giving.missouri.edu/">Give to Mizzou</a></li>
+                    <li><a href="http://www.mizzou.com/">Mizzou Alumni Association</a></li>
+                    <li><a href="http://www.mutigers.com/">Athletics</a></li>
+                    <li><a href="https://hrs.missouri.edu/find-a-job">Employment</a></li>  
+                    <li><a href="http://diversity.missouri.edu/">Diversity</a></li>  
+                </ul>
+            </li>
+            <li><a href="http://admissions.missouri.edu/">Prospective Students</a></li>
+            <li><a href="/students/index.php">Current Students</a></li>
+            <li><a href="/faculty/index.php">Faculty</a></li>
+            <li><a href="/staff/index.php">Staff</a></li>
+            <li><a href="/visitors/index.php">Visitors</a></li>
+            <li class="apply">
+                <span class="truman-hands"></span>
+                <a href="http://admissions.missouri.edu/apply/index.php">Apply to Mizzou</a>
+                <span class="truman-head"></span>
+            </li>
+        </ul>
+    </nav>        
+    
+            
+        </div>
+        
+         
+        
+        <!-- Main content layer -->
+        <div class="main-wrapper">
+            <section class="wide" id="main"> <!-- .wide is for pages that do not have a subnav sidebar that is hidden on mobile layout. -->
+                
+                <div id="main-aside">
+
+                    
+        
+        
+        
+        <nav id="mobile-nav"><div id="menu-button"><a href="#nav">Menu</a></div><div id="main-menu-button"><a href="#nav">MAIN MENU</a></div></nav><ul class="subnav" id="mobile-main-menu"><li><a href="/about/index.php">About Mizzou</a></li><li><a href="http://admissions.missouri.edu/">Undergraduate Admissions</a></li><li><a href="http://gradstudies.missouri.edu/">Graduate Admissions</a></li><li><a href="/colleges-schools/index.php">Colleges &amp; Schools</a></li><li><a href="/divisions-departments/index.php">Divisions &amp;&#160;Departments</a></li><li><a href="http://research.missouri.edu/">Research</a></li><li><a href="/international/index.php">International</a></li><li><a href="/libraries-museums/index.php">Libraries &amp; Museums</a></li><li><a href="http://www.muhealth.org/">MU Health Care</a></li><li><a href="http://extension.missouri.edu/">MU Extension</a></li><li><a href="http://giving.missouri.edu/">Give to Mizzou</a></li><li><a href="http://www.mizzou.com/">Mizzou Alumni Association</a></li><li><a href="http://www.mutigers.com/">Athletics</a></li><li><a href="http://hrs.missouri.edu/find-a-job/index.php">Employment</a></li><li><a href="http://diversity.missouri.edu/">Diversity</a></li></ul>        
+         
+    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+        
+        
+        
+        <div id="mobile-audience"><ul class="subnav"><li><a href="http://admissions.missouri.edu/">Prospective Students</a></li><li><a href="/students/index.php">Current Students</a></li><li><a href="/faculty/index.php">Faculty</a></li><li><a href="/staff/index.php">Staff</a></li><li><a href="/visitors/index.php">Visitors</a></li></ul><div class="apply">
+                <span class="truman-hands"></span>
+                <a href="http://admissions.missouri.edu/apply/index.php">Apply to Mizzou</a>
+                <span class="truman-head"></span>
+            </div></div>        
+    
+                    
+                </div>
+                
+                <div id="main-content" role="main">
+                
+                    
+        
+        
+        
+        <div id="mobile-search">
+    <div class="search-container">
+        <form action="/search/" method="get"> 
+            <div class="search">
+                <input class="search-field" name="q" size="22" title="search field" type="text"/> 
+                <input class="search-button" title="search" type="submit" value="Search"/> 
+            </div>
+        </form>
+    </div>
+</div>        
+    
+                    
+                    <h2 id="skip">403 - Forbidden</h2><p>Whoops! Looks like you can't go there.</p>
+                    
+                    
+                </div>
+            </section>      
+        
+        </div>
+        
+        
+        
+    </div>
+    
+    <div id="footer">
+        <footer role="contentinfo">
+            
+            
+        
+        
+        
+        <div class="footer-top">
+        <div class="footer-brand">
+            <div class="logo-box">
+    			<p class="logo"><a href="/">Mizzou Logo</a></p>
+                <h1 class="wordmark"><a href="/">University of Missouri</a></h1>
+			</div>
+            <p class="address">Columbia, MO 65211<br/><span>,</span> 573-882-2121</p>
+        </div>
+        <a class="social" href="http://socialmedia.missouri.edu">
+            <span>Mizzou Social&#160;Media</span>
+        </a>
+    </div>        
+    
+            
+            
+        
+        
+        
+        <div class="fine-print">
+        <div class="button alert">
+            <a href="http://mualert.missouri.edu"><span class="alert-icon">Emergency Info<span class="extra">rmation</span></span></a>
+        </div>
+        
+        <small>&#169; <time>2018</time>  &#8212; Curators of the <a href="http://www.umsystem.edu">University of Missouri</a>. All rights reserved. <a href="http://missouri.edu/dmca/">DMCA</a> and <a href="http://missouri.edu/copyright/">other copyright information</a>. An <a href="http://missouri.edu/eeo-aa/">equal opportunity/access/affirmative action/pro-disabled and veteran employer</a>.</small>
+        <small><a href="http://ada.missouri.edu/">Disability &amp; Accessibility information</a></small>
+    </div>        
+    
+            
+        </footer>
+    </div>
+    
+        
+        
+        
+        <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-16980600-24']);
+      _gaq.push(['_trackPageview']);
+    
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    
+</script>
+
+<!-- Hotjar Tracking Code for www.missouri.edu -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:547573,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>        
+    
+    <script src="/scripts/min/ga-mizzou-min.js"></script>
+    <script type="text/javascript">
+        
+        $(document).ready(function(){
+
+            var generalTracking = new GATracking();
+            
+            // Track Exits
+            generalTracking.TrackExit();
+            
+            // Track Tactical clicks
+            generalTracking.TrackClickEvent({
+                "mainSelector": "div#tactical section ul li a",
+                "eventData": [
+                    {
+                        "eventCategory": [
+                            {
+                                "string": "Tactical"
+                            }
+                        ],
+                        "eventAction": [
+                            {
+                                "selector": "",
+                                "selType": "text"
+                            }
+                        ],
+                        "eventLabel": [
+                            {
+                                "selector": "",
+                                "selType" : "attribute",
+                                "typeSelector" : "href"
+                            }
+                        ]
+                    }
+                ],
+                "trackExit": true
+            });
+        });
+    
+    </script>
+</body>
+</html>

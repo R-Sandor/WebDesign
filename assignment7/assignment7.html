@@ -1,0 +1,101 @@
+<!Doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta lang="eg">
+	<title>Feedback</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script type="text/javascript" src="res/scripts/a7.js"></script>
+  <link rel="stylesheet" type="text/css" href="res/style/a7.css">
+</head>
+<body onload="myFunction()">
+
+  <p id="date"></p>
+  <p id="timeOfDay"></p>
+
+  <div id="myModal" class="modal">
+    <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p id="greetings"></p>
+  </div>
+
+  </div>
+
+	<h1>Feedback Form</h1>
+	<p>Please fill out this form to help us improve our site.</p>
+	 <form form onsubmit="return submitIt(myForm)" action="contact.php"  name="myForm" method="post">
+  		Name
+ 		<input type="text" name="usersName"><br>
+ 		<p></p>
+ 		Comments:
+		<textarea name="Text1" cols="40" rows="5"></textarea>
+		<br>
+		<p>
+	 	E-mail Address:
+  		<input type="email" name="email">
+  		<p></p>
+  		<table>
+  			<tr>
+  				<td>
+  					<strong>Thing you liked:</strong>
+
+  				</td>
+  				<td>
+ 					<input type="checkbox" name="liked" value="Links"> Links
+ 				</td>
+ 				<td>
+  					<input type="checkbox" name="liked" value="EaseOfUse" > Ease of use<br>
+  				</td>
+  				<td>
+  					<input type="checkbox" name="liked" value="Images" > Images<br>
+  				</td>
+  				<td>
+  					<input type="checkbox" name="liked" value="SourceCode" > Source Code<br>
+  				</td>
+  			</tr>
+  		</table>
+  		<table style="word-wrap: break-word;">
+  			<tr>
+  				<td>
+  					<p><strong>How did you get to our site?:</strong></p>
+  				</td>
+  				<td>
+  					<input type="radio" name="site" value="otherSite"> Links from another site
+  				</td>
+  				<td>
+  					<input type="radio" name="site" value="deitel">Deitel.com Web site  
+  				</td>
+  				<td>
+  					<input type="radio" name="site" value="bookReference"> Reference in a book 
+  				</td>
+  				<td>
+  					<input type="radio" name="site" value="other"> Other 
+  				</td>
+  			</tr>
+  		</table>
+  	 Rate our site:
+ 	<select name="rating">
+    <option value="" selected="selected">Rate Us</option>
+  	<option value="10">10</option>
+  	<option value="9">9</option>
+  	<option value="8">8</option>
+  	<option value="7">7</option>
+  	<option value="6">6</option>
+  	<option value="5">5</option>
+  	<option value="4">4</option>
+  	<option value="3">3</option>
+  	<option value="2">2</option>
+  	<option value="1">1</option>
+	</select>
+	<p></p>
+  		<input type="submit" value="Submit Your Entries">
+  		<input type="reset" value="Clear Your Entries">
+
+
+	</form> 
+
+</div>
+</body>
+</html>

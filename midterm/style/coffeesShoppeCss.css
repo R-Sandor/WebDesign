@@ -1,0 +1,164 @@
+
+#coffeeCup{
+	width: 100%;
+        /*overflow: hidden;*/
+
+}
+div.banner{
+  max-width: 100%;
+}
+
+img {
+    max-width:100%;
+    height:auto;
+}
+
+}
+.content {
+  
+}
+div.nav-bar{
+
+	 position: relative;
+    margin:0 auto;
+    max-width: 100%;
+    /*left: 17.5%;*/
+    /*top:-2.35em;*/
+    z-index: 1000;
+   list-style-type: none;
+   font-size: 2vw;
+  
+
+}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+li {
+    padding:0vw 3vw;
+    float: left;
+
+}
+
+ul {
+    width: 100%;
+    /*font-size: 2em;*/
+    list-style-type: none;
+    color: orange;
+    overflow: hidden;
+
+} 
+
+li a{
+   display: block;
+    color: orange;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+
+ 
+li a:hover {
+	color:white;
+	background-color: orange;
+
+}
+
+body{
+  
+	background-color: black;
+	color:white;
+
+}
+p{
+margin: 0;
+	color: white;
+  font-size: 2vw;
+}
+h1
+{ font-size: 3vw; }
+
+
+div.highlights{
+  text-align: center;
+}
+
+div.hoursOfOperation
+{
+  text-align: center;
+}
+
+
+div.leftSide{
+  position: relative;
+    
+
+  width:20%; 
+  height: 100%;
+  float: left;
+ /* background-color: grey;*/
+  flex-grow:10;
+  background-size: cover;
+    min-height: 500px;
+
+
+}
+
+div.middle
+{   
+  position: relative;
+  float: left;
+  width: 80%;
+  height: 100%;
+  /*background-color: green;*/
+  text-align: center;
+  min-height: 500px;
+
+
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+div.footer{
+  font-size: 1vw;
+
+}
+
+div.address
+{
+
+  display: inline;
+  float: right;
+  width:30%;
+  font-size:.75vw;
+
+}
+
+div.phone
+{
+  font-size: .75vw;
+  display: inline;
+  float: right;
+  width:30%;
+}
+
+#artist{
+  font-size: 1vw;
+  text-decoration: none;
+  color: white;
+}
+
+#artist:hover {
+  color:white;
+  background-color: orange;
+}
+
+div.brews{
+  color:white;
+  !font-size: 1vw;
+}

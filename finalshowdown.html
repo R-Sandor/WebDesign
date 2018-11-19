@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Final Showdown</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 	
+	<link rel="stylesheet" id="raphael.css" href="res/styles/raphael.css" type="text/css" media="all">
+	<script type="text/javascript" src="res/scripts/projects.js"></script> 
+
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	
+
+</head>
+<body>
+	<!-- Nav bar that I probably wont need because the projects should be in a jframe.
+	<nav class="navbar navbar-inverse">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+      			<a class="navbar-brand" href="index.html" id="titleLeft">RSandor</a>
+   			</div>
+    		<ul class="nav navbar-nav" id="titleRight">
+	  			<li><a href="#">Resume</a></li>
+      			<li><a href="#">Projects</a></li>
+	  			<li><a href="#">Blog</a></li>
+	  			<li><a href="#">Personal Interests</a></li>
+    		</ul>
+  		</div>
+	</nav>
+	-->
+	<div class="Container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="headTitle" >
+					<br>
+					<h1 class="projectTemplate" id="project"> Project: </h1>
+					<h1 class="projectTemplate" id="project"> Final Showdown </h1>
+				</div>
+			</div>
+		</div>
+		<!-- Second row with Descriptio of the project -->
+		<div class="row">
+			<!-- Left side of the html -->
+			<div class="col-sm-4 projectTemplate">
+				<h1 class="projectTemplate" id="project"> Description: </h1>
+			</div>
+			<!-- Right side of the html -->
+			<div class="col-sm-8 projectTemplate">
+				<p> This was the culimating project for my ITP100 class for Python. The program was a western theme shooter where the user had to hit keys on the keyboard to simulate drawing the gun and shooting. The user was time while doing this, and if the user was slower than the computer than the user lost.</p>
+			</div>
+		</div>
+
+		<div class="row projectTemplate">
+			<!-- Left side of the html -->
+			<div class="col-sm-4">
+				<h1  class="projectTemplate" id="project"> Objectives: </h1>
+			</div>
+			<!-- Right side of the html -->
+			<div class="col-sm-8">
+				<ul> 
+					<li> Importing modules</li> 
+					<li> Input Validation </li>
+					<li> Using System Resources </li>
+			</div>
+		</div>
+
+		<!-- Area for source file links/ screenshots etc -->
+		<div class="row projectTemplate">
+			<!-- Left side of the html -->
+			<div class="col-sm-4">
+				<h1  class="projectTemplate" id="project"> Source Code: </h1>
+			</div>
+			<!-- Right side of the html -->
+			<div class="col-sm-8">
+				<a onclick="fileClick('res/projects/itp100/GUI.py', projectFiles)"> GUI.py </a> <br>
+				<a onclick="fileClick('res/projects/itp100/io.py', projectFiles)"> io.py </a> <br>
+				<a onclick="fileClick('res/projects/itp100/Round1.py', projectFiles)"> Round1.py </a> <br>
+				<a onclick="fileClick('res/projects/itp100/GUI.py', projectFiles)"> Round2.py </a> <br>
+				<a onclick="fileClick('res/projects/itp100/GUI.py', projectFiles)"> timers.py </a> <br>
+				<div id="projectFiles"></div>
+				</div>
+			</div>
+		</div>
+		<!-- Diagrams for the programs -->
+		<div class="row projectTemplate">
+			<!-- Left side of the html -->
+			<div class="col-sm-4">
+				<h1  class="projectTemplate" id="project"> Resources: </h1>
+			</div>
+			<!-- Right side of the html -->
+			<div class="col-sm-8">
+				<h3> Round1</h3>
+				<img style="text-align:center; width:100%; height: 100%;" src="res/projects/itp100/Round1.jpg" >
+				<br> <hr>
+				<h3> Round2</h3>
+				<img style="text-align:center; width:100%; height: 100%;" src="res/projects/itp100/Round2.jpg" > <br><hr>
+				<h3> The whole Program</h3>
+				<img style="text-align:center; width:100%; height: 100%;" src="res/projects/itp100/Showdown.jpg" >
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

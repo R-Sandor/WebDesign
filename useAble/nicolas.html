@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<!-- saved from url=(0025)http://nicolasborreil.fr/ -->
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" style=""><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Nicolas Borreil - Interactive &amp; Front-end Developer.</title>
+    <meta name="description" content="">
+    <!--<meta name="viewport" content="width=980, initial-scale=1.0">-->
+            <link rel="stylesheet" href="./nicolas_files/normalize.min.css">
+        <link rel="stylesheet" href="./nicolas_files/fonts.css">
+        <link rel="stylesheet" href="./nicolas_files/nicolas.css"><!--@todo-->
+        <link rel="icon" type="image/png" href="http://nicolasborreil.fr/img/favicon.png">
+        <script src="./nicolas_files/ga.js"></script><script id="facebook-jssdk" src="./nicolas_files/all.js"></script><script src="./nicolas_files/modernizr-2.6.2-respond-1.1.0.min.js"></script>    <meta property="og:title" content="Nicolas Borreil">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://nicolasborreil.fr/">
+    <meta property="og:image" content="http://nicolasborreil.fr/img/facebook.jpg">
+    <meta property="og:site_name" content="Nicolas Borreil | Portfolio">
+    <meta property="og:description" content="Interactive &amp; Front-end developer">
+  <style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_loader{background-color:#f6f7f9;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:18px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;bottom:0;left:0;right:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29487d;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f9;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_customer_chat_bounce_in{animation-duration:250ms;animation-name:fb_bounce_in}.fb_customer_chat_bounce_out{animation-duration:250ms;animation-name:fb_fade_out}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}.fb_mobile_overlay_active{height:100%;overflow:hidden;position:fixed;width:100%}@keyframes fb_fade_out{from{opacity:1}to{opacity:0}}@keyframes fb_bounce_in{0%{opacity:0;transform:scale(.8, .8);transform-origin:100% 100%}10%{opacity:.1}20%{opacity:.2}30%{opacity:.3}40%{opacity:.4}50%{opacity:.5}60%{opacity:.6}70%{opacity:.7}80%{opacity:.8;transform:scale(1.03, 1.03)}90{opacity:.9}100%{opacity:1;transform:scale(1, 1)}}</style><script type="text/javascript" charset="UTF-8" src="./nicolas_files/common.js"></script><script type="text/javascript" charset="UTF-8" src="./nicolas_files/util.js"></script><script type="text/javascript" charset="UTF-8" src="./nicolas_files/stats.js"></script></head>
+  <body>
+            <div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_http" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="./nicolas_files/Ms1VZf1Vg1J.html" style="border: none;"></iframe><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="./nicolas_files/Ms1VZf1Vg1J(1).html" style="border: none;"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1&appId=463165040435045";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+        <script type="text/javascript">
+          var appId = '463165040435045';
+          var baseURL = 'http://nicolasborreil.fr/';
+
+        function postToFeed(id, title, caption, description) {
+               // calling the API ...
+               var obj = {
+                 method: 'feed',
+                 link: baseURL+id,
+                 picture: baseURL+'/img/works/'+id+'facebook.jpg',
+                 name: title,
+                 caption: caption,
+                 description: description
+               };
+
+               function callback(response) {
+                 //
+               }
+
+               FB.ui(obj, callback);
+         }
+        </script>    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+    <div id="wrapper" class="home">
+      <div id="loading" style="opacity: 0; visibility: hidden;">
+        <div id="square" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
+          <div id="diamond" style="background-position: -122px 0px;"></div>
+        </div>
+      </div>
+
+
+      <div id="app" class="clearfix">
+        <div id="cssaward"><a class="no-ajaxy" target="_blank" href="http://www.cssdesignawards.com/"><img src="./nicolas_files/cssawards_winner.png" alt="Design Award Nomination"></a></div>
+                <div id="header" style="top: 0px;"><header class="" style="border-bottom-color: #15BF7A;">
+    <nav>
+        <div class="wrapper clearfix"><!-- @ todo -->
+          <h1 class="title left"><a href="http://nicolasborreil.fr/">Nicolas Borreil</a></h1>
+          <ul id="menu" class="right">
+              <li class="worksnav home current" style="background: 0px 0px rgb(21, 191, 122);"><a style="color: rgb(171, 171, 171);" href="http://nicolasborreil.fr/" data-type="home">works</a><audio class="sound_player"><source src="http://nicolasborreil.fr/files/clack.ogg" type="audio/ogg; codecs=vorbis"></audio></li>
+              <li class="about " style="background-position: 0px 0px;"><a href="http://nicolasborreil.fr/about/" data-type="about" style="color: rgb(171, 171, 171);">about me</a><audio class="sound_player"><source src="http://nicolasborreil.fr/files/clack.ogg" type="audio/ogg; codecs=vorbis"></audio></li>
+              <li class="contact "><a href="http://nicolasborreil.fr/contact/" data-type="contact">contact</a><audio class="sound_player"><source src="http://nicolasborreil.fr/files/clack.ogg" type="audio/ogg; codecs=vorbis"></audio></li>
+          </ul>
+                  </div>
+    </nav>
+</header>
+<div class="arrows">
+  <a class="arrow-down" href="http://nicolasborreil.fr/#"></a>
+  <a class="arrow-down-border" href="http://nicolasborreil.fr/#"></a>
+</div></div>
+        <div class="overlay" style="opacity: 1; visibility: visible;">
+          <div class="document-script" data-src="js/home.js"></div>
+          <div class="document-script" data-src="../js/home/Three/Three.js"></div>
+          <div class="document-script" data-src="../js/home/Three/Bird.js"></div>
+          <div class="document-script" data-src="../js/home/birds.js"></div>
+          <div id="mask"></div>
+
+          <div id="home">
+            <section id="introduction" class="clearfix">
+              <div id="birds" style="display: none;"><canvas width="1870" height="939"></canvas></div>
+
+              <div class="wrapper">
+                <div id="preloading">
+                  <div class="base">
+                    <div class="hiddenline" style="width: 100%;"><div class="line"></div></div>
+                    <div class="loading-left" style="left: 50%;">
+                      <div class="nicolas" style="opacity: 1; visibility: visible;"></div>
+                    </div>
+                    <div class="hiddencontent" style="opacity: 1; visibility: visible; width: 535px;">
+                      <div class="content">
+                        <h2>Interactive &amp; Front-end Developer</h2>
+                      </div>
+                    </div>
+                    <div class="loading-right" style="left: 50%;">
+                      <div class="borreil" style="opacity: 1; visibility: visible;"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <section id="projects" style="visibility: visible;">
+            <div id="waves">
+              <div class="small"></div>
+              <div class="large"></div>
+            </div>
+
+            <!-- Salomon + Withings -->
+            <div class="row" style="height: 243.25px;">
+              <div class="loading">
+                <div class="frame">
+                  <div class="content-loading">
+                    <span class="logo-client"></span>
+                    <span class="title salomon">Elevate your run !</span>
+                    <span class="title withings">We build smart devices</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col grow" data-master="2" data-type="works" data-project="salomon" data-color="#000000" data-url="http://nicolasborreil.fr/salomon/" style="background-color: rgb(0, 0, 0); height: 243.25px;"><div class="col-body">
+                <span class="poster"><span class="wrap"><img class="bg" src="./nicolas_files/thumb.jpg" alt="Salomon, CITYTRAIL"></span></span>
+              <div class="hover from-right" style="background-color: rgb(0, 0, 0);"></div></div></div>
+              <div class="col grow details" data-type="works" data-project="salomon" data-color="#000000" data-url="http://nicolasborreil.fr/salomon/" style="background-color: rgb(0, 0, 0); height: 243.25px;"><div class="col-body">
+                <header class="first" style="background:#000000; color:white;">
+                  <h3>SALOMON</h3>
+                  <p class="client_projet">CITYTRAIL, Elevate your run !</p>
+                  <span class="number" style="opacity: 0; visibility: hidden;"><span data-color="#000000" data-id="22" style="color: rgb(0, 0, 0);">22</span></span>
+                  <a class="launch" href="http://nicolasborreil.fr/salomon/">watch project</a>
+                </header>
+              </div></div>
+
+              <div class="col grow" data-master="4" data-type="works" data-project="withings" data-color="#00ACD4" data-url="http://nicolasborreil.fr/withings/" style="background-color: rgb(0, 172, 212); height: 243.25px;"><div class="col-body">
+                <span class="poster"><span class="wrap"><img class="bg" src="./nicolas_files/thumb(1).jpg" alt="withings"></span></span>
+              <div class="hover from-right" style="background-color: rgb(0, 172, 212);"></div></div></div>
+              <div class="col grow details" data-type="works" data-project="withings" data-color="#00ACD4" data-url="http://nicolasborreil.fr/withings/" style="background-color: rgb(0, 172, 212); height: 243.25px;"><div class="col-body">
+                <header class="first" style="background:#00ACD4; color:white;">
+                  <h3>Withings</h3>
+                  <span class="number" style="opacity: 0; visibility: hidden;"><span data-color="#00ACD4" data-id="21" style="color: rgb(0, 172, 212);">21</span></span>
+                  <p class="client_projet">We build smart devices</p>
+                  <a class="launch" href="http://nicolasborreil.fr/withings/">watch project</a>
+                </header>
+              </div></div>
+            </div>
+
+            <!-- Warner Godzilla + Reebok Pump -->
+            <div class="row" style="height: 243.25px;">
+              <div class="loading">
+                <div class="frame">
+                  <div class="content-loading">
+                    <span class="logo-client"></span>
+                    <span class="title warner-godzilla">We awoken something</span>
+                    <span class="title reebok-pump">What The Pump !</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col grow details" data-type="works" data-project="warner-godzilla" data-color="#D1352B" data-url="http://nicolasborreil.fr/warner-godzilla/" style="background-color: rgb(209, 53, 43); height: 243.25px;"><div class="col-body">
+                <header class="first" style="background:#D1352B; color:white;">
+                  <h3>WARNER BROS</h3>
+                  <p class="client_projet">Godzilla</p>
+                  <span class="number"><span data-color="#D1352B" data-id="20">0</span></span>
+                  <a class="launch" href="http://nicolasborreil.fr/warner-godzilla/">watch project</a>
+                </header>
+              </div></div>
+              <div class="col grow" data-type="works" data-project="warner-godzilla" data-color="#D1352B" data-url="http://nicolasborreil.fr/warner-godzilla/" data-master="1" style="background-color: rgb(209, 53, 43); height: 243.25px;"><div class="col-body">
+                <span class="poster"><span class="wrap"><img class="bg" src="./nicolas_files/thumb(2).jpg" alt="Warner Bros, Godzilla"></span></span>
+              <div class="hover from-left" style="background-color: rgb(209, 53, 43);"></div></div></div>
+
+              <div class="col grow details" data-type="works" data-project="reebok-pump" data-color="#0A101C" data-url="http://nicolasborreil.fr/reebok-pump/" style="background-color: rgb(10, 16, 28); height: 243.25px;"><div class="col-body">
+                <header class="first" style="background:#0A101C; color:white;">
+                  <h3>Reebok</h3>
+                  <span class="number" style="opacity: 0; visibility: hidden;"><span data-color="#0A101C" data-id="19" style="color: rgb(10, 16, 28);">19</span></span>
+                  <p class="client_projet">What The pump !</p>
+                  <a class="launch" href="http://nicolasborreil.fr/reebok-pump/">watch project</a>
+                </header>
+              </div></div>
+              <div class="col grow" data-master="3" data-type="works" data-project="reebok-pump" data-color="#0A101C" data-url="http://nicolasborreil.fr/reebok-pump/" style="background-color: rgb(10, 16, 28); height: 243.25px;"><div class="col-body">
+                <span class="poster"><span class="wrap"><img class="bg" src="./nicolas_files/thumb(3).jpg" alt="Reebok, What The pump !"></span></span>
+              <div class="hover from-left" style="background-color: rgb(10, 16, 28);"></div></div></div>
+            </div>
+
+            <!-- FDJ + Forwards -->
+            <div class="row" style="height: 243.25px;">
+              <div class="loading">
+                <div class="frame">
+                  <div class="content-loading">
+                    <span class="logo-client"></span>
+                    <span class="title fdj">Dream Factory</span>
+                    <span class="title forwards">Webzine, Brain Bangin'</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col grow" data-master="2" data-type="works" data-project="fdj" data-color="#2971E5" data-url="http://nicolasborreil.fr/fdj/" style="background-color: rgb(41, 113, 229); height: 243.25px;"><div class="col-body">
+                <span class="poster"><span class="wrap"><img class="bg" src="./nicolas_files/thumb(4).jpg" alt="FDJ"></span></span>
+              <div class="hover from-right" style="background-color: rgb(41, 113, 229);"></div></div></div>
+              <div class="col grow details" data-type="works" data-project="fdj" data-color="#2971E5" data-url="http://nicolasborreil.fr/fdj/" style="background-color: rgb(41, 113, 229); height: 243.25px;"><div class="col-body">
+                <header class="first" style="background:#2971E5; color:white;">
+                  <h3>FDJ</h3>
+                  <span class="number" style="opacity: 0; visibility: hidden;"><span data-color="#2971E5" data-id="18" style="color: rgb(41, 113, 229);">18</span></span>
+                  <p class="client_projet">Dream Factory</p>
+                  <a class="launch" href="http://nicolasborreil.fr/fdj/">watch project</a>
+                </header>
+              </div></div>
+
+              <div class="col grow" data-master="4" data-type="works" data-project="forwards" data-color="#01B1AF" data-url="http://nicolasborreil.fr/forwards/" style="background-color: rgb(1, 177, 175); height: 243.25px;"><div class="col-body">
+                <span class="poster"><span class="wrap"><img class="bg" src="./nicolas_files/thumb(5).jpg" alt="Forwards"></span></span>
+              <div class="hover from-right" style="background-color: rgb(1, 177, 175);"></div></div></div>
+              <div class="col grow details" data-type="works" data-project="forwards" data-color="#01B1AF" data-url="http://nicolasborreil.fr/forwards/" style="background-color: rgb(1, 177, 175); height: 243.25px;"><div class="col-body">
+                <header class="first" style="background:#01B1AF; color:white;">
+                  <h3>Forwards</h3>
+                  <span class="number"><span data-color="#37CA94" data-id="17">0</span></span>
+                  <p class="client_projet">Brain Bangin' !</p>
+                  <a class="launch" href="http://nicolasborreil.fr/forwards/">watch project</a>
+                </header>
+              </div></div>
+            </div>
+
+            <!-- Martini 150ans + Tignes Fabulous -->
+            <div class="row" style="height: 243.25px;">
+              <div class="loading">
+                <div class="frame">
+                  <div class="content-loading">
+                    <span class="logo-client"></span>
+                    <span class="title martini">150 years of Italian passion</span>
+                    <span class="title tignes">Win the best of tignes !</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col grow details" data-type="works" data-project="martini" data-color="#B12120" data-url="http://nicolasborreil.fr/martini/" style="background-color: rgb(177, 33, 32); height: 243.25px;"><div class="col-body">
+                <header class="first" style="background:#B12120; color:white;">
+                  <h3>Martini</h3>
+                  <p class="client_projet">150 years of Italian passion.</p>
+                  <span class="number"><span data-color="#B12120" data-id="16">0</span></span>
+                  <a class="launch" href="http://nicolasborreil.fr/martini/">watch project</a>
+                </header>
+              </div></div>
+              <div class="col grow" data-type="works" data-project="martini" data-color="#B12120" data-url="http://nicolasborreil.fr/martini/" data-master="1" style="background-color: rgb(177, 33, 32); height: 243.25px;"><div class="col-body">
+                <span class="poster"><span class="wrap"><img class="bg" src="./nicolas_files/thumb(6).jpg" alt="Martini 150ans"></span></span>
+              <div class="hover from-left" style="background-color: rgb(177, 33, 32);"></div></div></div>
+              <div class="col grow details" data-type="works" data-project="tignes" data-color="#CF002C" data-url="http://nicolasborreil.fr/tignes/" style="background-color: rgb(207, 0, 44); height: 243.25px;"><div class="col-body">
+                <header class="first" style="background:#CF002C; color:white;">
+                  <h3>Tignes Fabulous<br>&amp; x-Games</h3>
+                  <span class="number"><span data-color="#CF002C" data-id="15">0</span></span>
+                  <p class="client_projet">Win the best of tignes !</p>
+                  <a class="launch" href="http://nicolasborreil.fr/tignes/">watch project</a>
+                </header>
+              </div></div>
+              <div class="col grow" data-master="3" data-type="works" data-project="tignes" data-color="#CF002C" data-url="http://nicolasborreil.fr/tignes/" style="background-color: rgb(207, 0, 44); height: 243.25px;"><div class="col-body">
+                <span class="poster"><span class="wrap"><img class="bg" src="./nicolas_files/thumb(7).jpg" alt="tignes-fabulous"></span></span>
+              <div class="hover from-left" style="background-color: rgb(207, 0, 44);"></div></div></div>
+            </div>
+
+            <!-- CrazyHorse + Mobalpa -->
+            <div class="row" style="height: 243.25px;">
+              <div class="loading">
+                <div class="frame">
+                  <div class="content-loading">
+                    <span class="logo-client"></span>
+                    <span class="title crazyhorse">digital communication</span>
+                    <span class="title mobalpa" style="color:#0ba262;">digital communication</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col grow" data-master="2" data-type="works" data-project="crazyhorse" data-color="#CAA3B5" data-url="http://nicolasborreil.fr/crazyhorse/" style="background-color: rgb(202, 163, 181); height: 243.25px;"><div class="col-body">
+                <span class="poster"><span class="wrap"><img class="bg" src="./nicolas_files/thumb(8).jpg" alt="crazyhorse"></span></span>
+              <div class="hover from-right" style="background-color: rgb(202, 163, 181);"></div></div></div>
+              <div class="col grow details" data-type="works" data-project="crazyhorse" data-color="#CAA3B5" data-url="http://nicolasborreil.fr/crazyhorse/" style="background-color: rgb(202, 163, 181); height: 243.25px;"><div class="col-body">
+                <header class="first" style="background:#CAA3B5; color:white;">
+                  <h3>CrazyHorse</h3>
+                  <span class="number" style="background:#FFF;"><span data-color="#CAA3B5" data-id="14">0</span></span>
+                  <p class="client_projet">digital communication</p>
+                  <a class="launch" href="http://nicolasborreil.fr/crazyhorse/">watch project</a>
+                </header>
+              </div></div>
+              <div class="col grow" data-master="4" data-type="works" data-project="mobalpa" data-color="#ddd" data-url="http://nicolasborreil.fr/mobalpa/" style="background-color: rgb(221, 221, 221); height: 243.25px;"><div class="col-body">
+                <span class="poster"><span class="wrap"><img class="bg" src="./nicolas_files/thumb(9).jpg" alt="Mobalpa"></span></span>
+              <div class="hover from-right" style="background-color: rgb(221, 221, 221);"></div></div></div>
+              <div class="col grow details" data-type="works" data-project="mobalpa" data-color="#ddd" data-url="http://nicolasborreil.fr/mobalpa/" style="background-color: rgb(221, 221, 221); height: 243.25px;"><div class="col-body">
+                <header class="first" style="background:#ddd;">
+                  <span class="number" style="background:#0ba262;"><span data-color="#ddd" data-id="13">0</span></span>
+                  <h3>Mobalba</h3>
+                  <p class="client_projet">digital communication</p>
+                  <a class="launch bicolore" href="http://nicolasborreil.fr/mobalpa/">watch project</a>
+                </header>
+              </div></div>
+            </div>
+
+            <!-- Reebok + lacoste Future -->
+            <div class="row" style="height: 243.25px;">
+              <div class="loading">
+                <div class="frame">
+                  <div class="content-loading">
+                    <span class="logo-client"></span>
+                    <span class="title reebok">live with fire tour !</span>
+                    <span class="title lacoste-future" style="color:#12385D;">imagine the Polo of the Future</span>
+                  </div>
+                </div>
+              </div>
+              <div class="loading"></div>
+              <div class="col grow details" data-type="works" data-project="reebok" data-color="#D2232A" data-url="http://nicolasborreil.fr/reebok/" style="background-color: rgb(210, 35, 42); height: 243.25px;"><div class="col-body">
+                <header style="background:#D2232A; color:white;">
+                  <h3>Reebok</h3>
+                  <span class="number"><span data-color="#D2232A" data-id="12">0</span></span>
+                  <p class="client_projet">live with fire tour !</p>
+                  <a class="launch" href="http://nicolasborreil.fr/reebok/">watch project</a>
+                </header>
+              </div></div>
+              <div class="col grow" data-master="1" data-type="works" data-project="reebok" data-color="#D2232A" data-url="http://nicolasborreil.fr/reebok/" style="background-color: rgb(210, 35, 42); height: 243.25px;"><div class="col-body">
+                <span class="poster"><span class="wrap"><img class="bg" src="./nicolas_files/thumb(10).jpg" alt="Reebok"></span></span>
+              <div class="hover from-left" style="background-color: rgb(210, 35, 42);"></div></div></div>
+              <div class="col grow details" data-type="works" data-project="lacoste-future" data-color="#FFF" data-url="http://nicolasborreil.fr/lacoste-future/" style="background-color: rgb(255, 255, 255); height: 243.25px;"><div class="col-body">
+                <header style="background:#FFF; color:#12385D;">
+                  <h3>Lacoste Future</h3>
+                  <span class="number" style="background:#12385D;"><span data-color="#fff" data-id="11">0</span></span>
+                  <p class="client_projet">imagine the Polo of the Future</p>
+                  <a class="launch blue" href="http://nicolasborreil.fr/lacoste-future/">watch project</a>
+                </header>
+              </div></div>
+              <div class="col grow" data-master="3" data-type="works" data-project="lacoste-future" data-color="#FFF" data-url="http://nicolasborreil.fr/lacoste-future/" style="background-color: rgb(255, 255, 255); height: 243.25px;"><div class="col-body">
+                <span class="poster"><span class="wrap"><img class="bg" src="./nicolas_files/thumb(11).jpg" alt="Lacoste Future"></span></span>
+              <div class="hover from-left" style="background-color: rgb(255, 255, 255);"></div></div></div>
+            </div>
+
+            <!-- Boucheron + Warner Bros The Hobbit -->
+            <div class="row" style="height: 243.25px;">
+              <div class="loading">
+                <div class="frame">
+                  <div class="content-loading">
+                    <span class="logo-client"></span>
+                    <span class="title boucheron" style="color:#6C6C6C;">heart of the "Maison's" digital ecosystem</span>
+                    <span class="title warner-the-hobbit" style="color:#444;">An online journey</span>
+                  </div>
+                </div>
+              </div>
+              <div class="loading"></div>
+              <div class="col grow" data-master="2" data-type="works" data-project="boucheron" data-color="#F8F8F8" data-url="http://nicolasborreil.fr/boucheron/" style="background-color: rgb(248, 248, 248); height: 243.25px;"><div class="col-body">
+                <span class="poster"><span class="wrap"><img class="bg" src="./nicolas_files/thumb(12).jpg" alt="boucheron"></span></span>
+              <div class="hover from-right" style="background-color: rgb(248, 248, 248);"></div></div></div>
+              <div class="col grow details" data-type="works" data-project="boucheron" data-color="#F8F8F8" data-url="http://nicolasborreil.fr/boucheron/" style="background-color: rgb(248, 248, 248); height: 243.25px;"><div class="col-body">
+                <header class="first" style="background:#F8F8F8; color:#6C6C6C;">
+                  <h3>Boucheron</h3>
+                  <span class="number" style="background:#A69662;"><span data-color="#fff" data-id="10">0</span></span>
+                  <p class="client_projet">heart of the "Maison's" digital ecosystem</p>
+                  <a class="launch" style="color:#6C6C6C;" href="http://nicolasborreil.fr/boucheron/">watch project</a>
+                </header>
+              </div></div>
+              <div class="col grow" data-master="4" data-type="works" data-project="warner-the-hobbit" data-color="#C0BB9C" data-url="http://nicolasborreil.fr/warner-the-hobbit/" style="background-color: rgb(192, 187, 156); height: 243.25px;"><div class="col-body">
+                <a class="poster no-ajaxy" title="" href="http://nicolasborreil.fr/#"><span class="wrap"><img class="bg" src="./nicolas_files/thumb(13).jpg" alt="Warner bros The Hobbit"></span></a>
+              <div class="hover from-right" style="background-color: rgb(192, 187, 156);"></div></div></div>
+              <div class="col grow details" data-type="works" data-project="warner-the-hobbit" data-color="#C0BB9C" data-url="http://nicolasborreil.fr/warner-the-hobbit/" style="background-color: rgb(192, 187, 156); height: 243.25px;"><div class="col-body">
+                <header style="background:#C0BB9C; color:#444;">
+                  <h3>Warner bros</h3>
+                  <span class="number"><span data-color="#C0BB9C" data-id="09">0</span></span>
+                  <p class="client_projet">The Hobbit, An online journey</p>
+                  <a class="launch" style="color:#444;" href="http://nicolasborreil.fr/warner-the-hobbit/">watch project</a>
+                </header>
+              </div></div>
+            </div>
+
+            <!-- Orange Euro2012 + orange StarAfrica -->
+            <div class="row" style="height: 243.25px;">
+              <div class="loading">
+                <div class="frame">
+                  <div class="content-loading">
+                    <span class="logo-client"></span>
+                    <span class="title orange-euro2012">Football fans are the new heroes</span>
+                    <span class="title orange-starafrica">Africa Cup of nations</span>
+                  </div>
+                </div>
+              </div>
+              <div class="loading"></div>
+              <div class="col grow details" data-type="works" data-project="orange-euro2012" data-color="#f5510a" data-url="http://nicolasborreil.fr/orange-euro2012/" style="background-color: rgb(245, 81, 10); height: 243.25px;"><div class="col-body">
+                <header class="first" style="background:#f5510a; color:white;">
+                  <h3>Orange EURO2012</h3>
+                  <span class="number"><span data-color="#f5510a" data-id="08">0</span></span>
+                  <p class="client_projet">Football fans are the new heroes</p>
+                  <a class="launch" href="http://nicolasborreil.fr/orange-euro2012/">watch project</a>
+                </header>
+              </div></div>
+              <div class="col grow" data-master="1" data-type="works" data-project="orange-euro2012" data-color="#f5510a" data-url="http://nicolasborreil.fr/orange-euro2012/" style="background-color: rgb(245, 81, 10); height: 243.25px;"><div class="col-body">
+                <span class="poster"><span class="wrap"><img class="bg" src="./nicolas_files/thumb(14).jpg" alt="Orange Euro2012"></span></span>
+              <div class="hover from-left" style="background-color: rgb(245, 81, 10);"></div></div></div>
+              <div class="col grow details" data-type="works" data-project="orange-starafrica" data-color="#f5510a" data-url="http://nicolasborreil.fr/orange-euro2012/" style="background-color: rgb(245, 81, 10); height: 243.25px;"><div class="col-body">
+                <header class="first" style="background:#f5510a; color:white;">
+                  <h3>Orange StarAfrica</h3>
+                  <span class="number"><span data-color="#f5510a" data-id="07">0</span></span>
+                  <p class="client_projet">Africa Cup of nations</p>
+                  <a class="launch" href="http://nicolasborreil.fr/orange-euro2012/">watch project</a>
+                </header>
+              </div></div>
+              <div class="col grow" data-master="3" data-type="works" data-project="orange-euro2012" data-color="#f5510a" data-url="http://nicolasborreil.fr/orange-euro2012/" style="background-color: rgb(245, 81, 10); height: 243.25px;"><div class="col-body">
+                <span class="poster"><span class="wrap"><img class="bg" src="./nicolas_files/thumb2.jpg" alt="orange StarAfrica"></span></span>
+              <div class="hover from-left" style="background-color: rgb(245, 81, 10);"></div></div></div>
+            </div>
+
+            <!-- Lacoste Tennis + LEQUIPE Adrénaline -->
+            <div class="row" style="height: 243.25px;">
+              <div class="loading">
+                <div class="frame">
+                  <div class="content-loading">
+                    <span class="logo-client"></span>
+                    <span class="title lacoste-tennis" style="color:#486E85;">Tennis meets fashion</span>
+                    <span class="title lequipe">slides and extreme sports</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col grow" data-master="2" data-type="works" data-project="lacoste-tennis" data-color="#eee" data-url="http://nicolasborreil.fr/lacoste-tennis/" style="background-color: rgb(238, 238, 238); height: 243.25px;"><div class="col-body">
+                <span class="poster"><span class="wrap"><img class="bg" src="./nicolas_files/thumb(15).jpg" alt="LACOSTE TENNIS"></span></span>
+              <div class="hover from-right" style="background-color: rgb(238, 238, 238);"></div></div></div>
+              <div class="col grow details" data-type="works" data-project="lacoste-tennis" data-color="#eee" data-url="http://nicolasborreil.fr/lacoste-tennis/" style="background-color: rgb(238, 238, 238); height: 243.25px;"><div class="col-body">
+                <header style="background:#eee;">
+                  <h3>Lacoste Tennis</h3>
+                  <span class="number" style="background:#86949C;"><span data-color="#eee" data-id="06">0</span></span>
+                  <p class="client_projet">Tennis meets fashion</p>
+                  <a class="launch bicolore" href="http://nicolasborreil.fr/lacoste-tennis/">watch project</a>
+                </header>
+              </div></div>
+              <div class="col grow" data-master="4" data-type="works" data-project="lequipe" data-color="#C9C9C9" data-url="http://nicolasborreil.fr/lequipe/" style="background-color: rgb(201, 201, 201); height: 243.25px;"><div class="col-body">
+                <a href="http://nicolasborreil.fr/#" class="poster no-ajaxy"><span class="wrap"><img class="bg" src="./nicolas_files/thumb(16).jpg" alt="LEQUIPE Adrenaline"></span></a>
+              <div class="hover from-right" style="background-color: rgb(201, 201, 201);"></div></div></div>
+              <div class="col grow details" data-type="works" data-project="lequipe" data-color="#C9C9C9" data-url="http://nicolasborreil.fr/lequipe/" style="background-color: rgb(201, 201, 201); height: 243.25px;"><div class="col-body">
+                <header class="first" style="background:#C9C9C9;">
+                  <h3>L'EQUIPE Adrénaline</h3>
+                  <span class="number" style="background:#F9FF02;"><span data-color="#C9C9C9" data-id="05">0</span></span>
+                  <p class="client_projet">slides and extreme sports</p>
+                  <a class="launch bicolore" href="http://nicolasborreil.fr/lequipe/">watch project</a>
+                </header>
+              </div></div>
+            </div>
+
+            <!-- Lacoste Fashion Show + Warner Bros contagion -->
+            <div class="row" style="height: 243.25px;">
+              <div class="loading">
+                <div class="frame">
+                  <div class="content-loading">
+                    <span class="logo-client"></span>
+                    <span class="title lacoste-fashion-show" style="color:black;">Lacoste FW12-13 Fashion Show</span>
+                    <span class="title warner-contagion">Contagion Observatory</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col grow details" data-type="works" data-project="lacoste-fashion-show" data-color="#FFF" data-url="http://nicolasborreil.fr/lacoste-fashion-show/" style="background-color: rgb(255, 255, 255); height: 243.25px;"><div class="col-body">
+                <header style="background:#FFF;">
+                  <h3>LACOSTE</h3>
+                  <span class="number" style="background:#F03E30;"><span data-color="#fff" data-id="04">0</span></span>
+                  <p class="client_projet">FW12-13 Fashion Show</p>
+                  <a class="launch bicolore" href="http://nicolasborreil.fr/lacoste-fashion-show/">watch project</a>
+                </header>
+              </div></div>
+              <div class="col grow" data-master="1" data-type="works" data-project="lacoste-fashion-show" data-color="#FFF" data-url="http://nicolasborreil.fr/lacoste-fashion-show/" style="background-color: rgb(255, 255, 255); height: 243.25px;"><div class="col-body">
+                <span class="poster"><span class="wrap"><img class="bg" src="./nicolas_files/thumb(17).jpg" alt="Lacoste Fashion Show"></span></span>
+              <div class="hover from-left" style="background-color: rgb(255, 255, 255);"></div></div></div>
+              <div class="col grow details" data-type="works" data-project="warner-contagion" data-color="#E7B92F" data-url="http://nicolasborreil.fr/warner-contagion/" style="background-color: rgb(231, 185, 47); height: 243.25px;"><div class="col-body">
+                <header style="background:#E7B92F;">
+                  <h3>Warner Bros</h3>
+                  <span class="number"><span data-color="#E7B92F" data-id="03">0</span></span>
+                  <p class="client_projet">Contagion Observatory</p>
+                  <a class="launch bicolore" href="http://nicolasborreil.fr/warner-contagion/">watch project</a>
+                </header>
+              </div></div>
+              <div class="col grow" data-master="3" data-type="works" data-project="warner-contagion" data-color="#E7B92F" data-url="http://nicolasborreil.fr/warner-contagion/" style="background-color: rgb(231, 185, 47); height: 243.25px;"><div class="col-body">
+                <span class="poster"><span class="wrap"><img class="bg" src="./nicolas_files/thumb(18).jpg" alt="Warner Bros Contagion"></span></span>
+              <div class="hover from-left" style="background-color: rgb(231, 185, 47);"></div></div></div>
+            </div>
+
+
+            <!-- De mains en mains + Jean-Claude di Ruocco-->
+            <div class="row" style="height: 243.25px;">
+              <div class="loading">
+                <div class="frame">
+                  <div class="content-loading">
+                    <span class="logo-client"></span>
+                    <span class="title de-mains-en-mains">share your books!</span>
+                    <span class="title jean-claude-di-ruocco" style="color:#3C454C;">poet, writer, literary editor</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col grow" data-master="2" data-type="works" data-project="de-mains-en-mains" data-color="#499BB1" data-url="http://nicolasborreil.fr/de-mains-en-mains/" style="background-color: rgb(73, 155, 177); height: 243.25px;"><div class="col-body">
+                <span class="poster"><span class="wrap"><img class="bg" src="./nicolas_files/thumb(19).jpg" alt="De mains en mains"></span></span>
+              <div class="hover from-right" style="background-color: rgb(73, 155, 177);"></div></div></div>
+              <div class="col grow details" data-type="works" data-project="de-mains-en-mains" data-color="#499BB1" data-url="http://nicolasborreil.fr/de-mains-en-mains/" style="background-color: rgb(73, 155, 177); height: 243.25px;"><div class="col-body">
+                <header class="first" style="background:#499BB1; color:white;">
+                  <h3>De mains en mains</h3>
+                  <span class="number"><span data-color="#499BB1" data-id="02">0</span></span>
+                  <p class="client_projet">share your books !</p>
+                  <a class="launch" href="http://nicolasborreil.fr/de-mains-en-mains/">watch project</a>
+                </header>
+              </div></div>
+              <div class="col grow details" data-type="works" data-project="jean-claude-di-ruocco" data-color="#eee" data-url="http://nicolasborreil.fr/jean-claude-di-ruocco/" style="background-color: rgb(238, 238, 238); height: 243.25px;"><div class="col-body">
+                <header style="background:#eee;">
+                  <h3>Jean Claude<br> Di Ruocco</h3>
+                  <span class="number" style="background:#3C454C;"><span data-color="#eee" data-id="01">0</span></span>
+                  <p class="client_projet">poet, writer, literary editor</p>
+                  <a class="launch bicolore" href="http://nicolasborreil.fr/jean-claude-di-ruocco/">watch project</a>
+                </header>
+              </div></div>
+              <div class="col grow" data-master="3" data-type="works" data-project="jean-claude-di-ruocco" data-color="#eee" data-url="http://nicolasborreil.fr/jean-claude-di-ruocco/" style="background-color: rgb(238, 238, 238); height: 243.25px;"><div class="col-body">
+                <span class="poster"><span class="wrap"><img class="bg" src="./nicolas_files/thumb(20).jpg" alt="Jean Claude Di Ruoccot"></span></span>
+              <div class="hover from-left" style="background-color: rgb(238, 238, 238);"></div></div></div>
+            </div>
+          </section>
+
+        </div><!-- overlay -->
+
+                            <!-- STICKYNAV -->
+            <div id="stickynav" style="bottom: 0px;">
+              
+                              
+                            <div id="details">
+                <div class="wrapper">
+                  <img src="./nicolas_files/title.png" alt="nicolas borreil"><div class="tutoriel"><span class="infos"><span>Since the last three years.</span></span></div>                </div>
+              </div>
+              <div id="clients">
+                <ul>
+                  <li><a class="start no-ajaxy" href="http://nicolasborreil.fr/#"><span class="prev"></span></a></li><li><a class="position no-ajaxy" data-position="6" href="http://nicolasborreil.fr/#" data-color="#97863E"><img src="./nicolas_files/boucheron.png" alt="boucheron"></a></li><li><a class="position no-ajaxy" data-position="2" href="http://nicolasborreil.fr/#" data-color="#000"><img src="./nicolas_files/warner.png" alt="warner"></a></li><li><a class="position no-ajaxy" data-position="5" href="http://nicolasborreil.fr/#" data-color="#11375B"><img src="./nicolas_files/lacoste.png" alt="lacoste"></a></li><li><a class="position no-ajaxy" data-position="7" href="http://nicolasborreil.fr/#" data-color="#F5510A"><img src="./nicolas_files/orange.png" alt="orange"></a></li><li><a class="position no-ajaxy" data-position="8" href="http://nicolasborreil.fr/#" data-color="#8585A7"><img src="./nicolas_files/adrenaline.png" alt="adrenaline"></a></li><li><a class="position no-ajaxy" data-position="5" href="http://nicolasborreil.fr/#" data-color="#D80030"><img src="./nicolas_files/reebok.png" alt="reebok"></a></li><li><a class="position no-ajaxy" data-position="0" href="http://nicolasborreil.fr/#" data-color="#00923A"><img src="./nicolas_files/salomon.png" alt="salomon"></a></li><li><a class="position no-ajaxy" data-position="4" href="http://nicolasborreil.fr/#" data-color="#970304"><img src="./nicolas_files/martini.png" alt="martini"></a></li><li><a class="end no-ajaxy" href="http://nicolasborreil.fr/#"><span class="next"></span></a></li>                </ul>
+              </div>
+                            
+              <nav>
+                <ul>
+                  <li class="left"><a class="twitter no-ajaxy" target="_blank" href="https://twitter.com/NicolasBorreil">follow me</a></li>
+                  <li class="left"><a class="cv no-ajaxy" target="_blank" href="http://nicolasborreil.fr/files/resume_fr.pdf">hire me</a></li>
+                  <li class="right"><span class="green">06 13 90 67 17</span></li>
+                  <li class="right"><a href="http://nicolasborreil.fr/contact/">hello@nicolasborreil.fr</a></li>
+                  <li class="right"><span class="green">more infos :</span></li>
+                </ul>
+              </nav>
+
+            </div>
+      </div> <!-- #app -->
+
+    </div>
+    <script type="text/javascript">var currentType = 'home', currentUrl = 'home';</script>
+            <script src="./nicolas_files/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="./nicolas_files/plugins.js"></script>
+        <script src="./nicolas_files/navigation.js"></script>
+        <script src="./nicolas_files/core.js"></script>
+		<script src="./nicolas_files/about.js"></script>
+        <script type="text/javascript">
+          Core.scripts(currentUrl); Switchproject.img(top.imagesArray);
+        </script>
+        <script src="./nicolas_files/js"></script>
+        <script>
+            var _gaq=[['_setAccount','UA-23868641-1'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>    <script src="./nicolas_files/Three.js" type="text/javascript"></script>
+    <script src="./nicolas_files/Bird.js" type="text/javascript"></script>
+    <script src="./nicolas_files/birds.js" type="text/javascript"></script>
+    <script src="./nicolas_files/home.js"></script>
+  
+
+</body></html>

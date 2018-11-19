@@ -1,0 +1,27 @@
+a { text-decoration: none;}
+
+@font-face {
+    font-family: 'ProximaNovaRegular';
+    src: url('../fonts/regular/proximanovacond-regular-webfont.eot');
+    src: url('../fonts/regular/proximanovacond-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/regular/proximanovacond-regular-webfont.woff') format('woff'),
+         url('../fonts/regular/proximanovacond-regular-webfont.ttf') format('truetype'),
+         url('../fonts/regular/proximanovacond-regular-webfont.svg#ProximaNovaCondensedRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face{
+  font-family:'GeosansLightRegular';
+  src:url('../fonts/geosanslight/geosanslight-webfont.eot');
+  src:url('../fonts/geosanslight/geosanslight-webfont.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/geosanslight/geosanslight-webfont.woff') format('woff'),
+      url('../fonts/geosanslight/geosanslight-webfont.ttf') format('truetype'),
+      url('../fonts/geosanslight/geosanslight-webfont.svg#GeosansLightRegular') format('svg');
+  font-weight:normal;font-style:normal
+}
+
+
+body { font-family: 'ProximaNovaRegular', sans-serif; font-style: normal; }

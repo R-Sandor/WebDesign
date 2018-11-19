@@ -1,0 +1,3 @@
+main.o: main.cpp Target.h Gun.h
+Gun.o: Gun.cpp Gun.h Target.h
+Target.o: Target.cpp Target.h

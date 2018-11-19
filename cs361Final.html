@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Chomp</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 	
+	<link rel="stylesheet" id="raphael.css" href="res/styles/raphael.css" type="text/css" media="all">
+	<script type="text/javascript" src="res/scripts/projects.js"></script> 
+
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	
+
+</head>
+<body>
+	<!-- Nav bar that I probably wont need because the projects should be in a jframe.
+	<nav class="navbar navbar-inverse">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+      			<a class="navbar-brand" href="index.html" id="titleLeft">RSandor</a>
+   			</div>
+    		<ul class="nav navbar-nav" id="titleRight">
+	  			<li><a href="#">Resume</a></li>
+      			<li><a href="#">Projects</a></li>
+	  			<li><a href="#">Blog</a></li>
+	  			<li><a href="#">Personal Interests</a></li>
+    		</ul>
+  		</div>
+	</nav>
+	-->
+	<div class="Container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="headTitle" >
+					<br>
+					<h1 class="projectTemplate" id="project"> Project: </h1>
+					<h1 class="projectTemplate" id="project"> CS361 Final </h1>
+				</div>
+			</div>
+		</div>
+		<!-- Second row with Descriptio of the project -->
+		<div class="row">
+			<!-- Left side of the html -->
+			<div class="col-sm-4 projectTemplate">
+				<h1 class="projectTemplate" id="project"> Description: </h1>
+			</div>
+			<!-- Right side of the html -->
+			<div class="col-sm-8 projectTemplate">
+				<p> This was my CS361 programming final. We were given one week to complete. I Got a 100!</p>
+				<p> Three problems, one was to create a crack that can create other cracks. The cracks can change direction and length with each crack and each spawned crack can create another or stop. </p>
+				<p> The second, was to create weapon that shoots down targets with higher priority and subtracts the amount of health the target has left. </p>
+				<p> The third was to have a factory, with different ques that would take turns recieving items and would display the contents of each queue.
+				</p>
+			</div>
+		</div>
+
+		<div class="row projectTemplate">
+			<!-- Left side of the html -->
+			<div class="col-sm-4">
+				<h1  class="projectTemplate" id="project"> Objectives: </h1>
+			</div>
+			<!-- Right side of the html -->
+			<div class="col-sm-8">
+				<ul> 
+					<li> Matrix manipulation </li> 
+					<li> LinkedList</li>
+					<li> Key Finding</li>
+					
+			</div>
+		</div>
+
+		<!-- Area for source file links/ screenshots etc -->
+		<div class="row projectTemplate">
+			<!-- Left side of the html -->
+			<div class="col-sm-4">
+				<h1  class="projectTemplate" id="project"> Source Code: </h1>
+			</div>
+			<!-- Right side of the html -->
+			<div class="col-sm-8">
+				<a onclick="fileClick('res/projects/361/problem1/commands.txt',projectFiles)">GNUPlot - commands.txt </a> <br>
+				<a onclick="fileClick('res/projects/361/problem1/main.cpp',projectFiles)"> main.cpp </a> <br>
+				<a onclick="fileClick('res/projects/361/problem1/Crack.cpp',projectFiles)"> Crack.cpp </a> <br>
+				<a onclick="fileClick('res/projects/cs361/problem1/Crack.h',projectFiles)"> Crack.h </a> <br>
+				<a onclick="fileClick('res/projects/361/problem1/makefile',projectFiles)"> makefile </a> <br>
+				<a onclick="fileClick('res/projects/361/problem3/makefile',projectFiles)"> Problem 2 makefile </a> <br>
+				<a onclick="fileClick('res/projects/361/problem3/main.cpp',projectFiles)"> main.cpp </a> <br>
+				<a onclick="fileClick('res/projects/361/problem3/Target.cpp',projectFiles)"> Target.cpp </a> <br>
+				<a onclick="fileClick('res/projects/361/problem3/Target.h',projectFiles)"> Target.h </a> <br>
+				<a onclick="fileClick('res/projects/361/problem3/Gun.cpp',projectFiles)"> Gun.cpp </a> <br>
+				<a onclick="fileClick('res/projects/361/problem3/Gun.h',projectFiles)"> Gun.h </a> <br>
+				<a onclick="fileClick('res/projects/361/problem3/Gun.h',projectFiles)"> Gun.h </a> <br>
+				<a onclick="fileClick('res/projects/361/problem5/makefile',projectFiles)"> Problem 3 makefile </a> <br>
+				<a onclick="fileClick('res/projects/361/problem5/main.cpp',projectFiles)"> main.cpp </a> <br>
+				<div id="projectFiles"></div>
+			</div>
+		</div>
+		<!-- Diagrams for the programs -->
+		<div class="row projectTemplate">
+			<!-- Left side of the html -->
+			<div class="col-sm-4">
+				<h1  class="projectTemplate" id="project"> Resources: </h1>
+			</div>
+			<!-- Right side of the html -->
+			<div class="col-sm-8">
+				<img style="width: 100%; height: 100%;" src="res/projects/361/project3/Screenshot from 2017-12-08 18-06-46.png">
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
