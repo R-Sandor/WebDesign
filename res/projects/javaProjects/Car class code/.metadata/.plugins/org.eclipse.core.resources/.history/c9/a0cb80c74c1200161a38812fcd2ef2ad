@@ -1,0 +1,14 @@
+/**
+ * This program accesses the Car class
+ * It will hold the speed of the car  
+ * @author Raphael
+ *
+ */
+public class Driver {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

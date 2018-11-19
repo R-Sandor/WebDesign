@@ -1,0 +1,50 @@
+Grid Racers! Final project!
+
+
+
+*Create the map
+**use course.dat from the command line
+***
+*** Calculate the width of the track
+*** Calculate the length of the track
+****Map::Map(istream& in)
+*****{
+******Takes input for the course.dat and then uses it to construct the map.
+*******int i = 0;
+*******while (in)
+*******{
+********string str;
+********getline (in,str);
+********if (i == 0)
+********{
+********columns = str.length();
+********}
+********i++;
+********}
+********rows = i-1;
+*****first = NULL;
+*****}
+****Create storage for the track
+*****store whether each square of the track is a wall or should have a value 
+**assign values to each square in the map 
+*Intialize the cars 
+**set cars in numerical order 1 2 3
+*While the game has no winner 
+{
+*Move cars
+**check if move is legal
+***move cars in order of 1, 2,3 then, 2,3,1 and 3,1,2
+***check if move runs into wall or other cars
+****if the move runs in to wall set velocity (0,0)
+*****{subtract 1 from the maximum velocity}.
+****else complete the move 
+*****add velocity 
+***Computer select move that is the most effiecent 
+*****place car on spot
+******redraw the map
+}
+
+necissary objects/Modules 
+Map
+Cars 
+Game 

@@ -1,0 +1,11 @@
+fun addSinglePersonToGroup (pid:int, mixGrp:int list)=
+  if tl mixGrp =[] then []
+  else
+    let 
+  val groupVal = (hd mixGrp)
+  val lookUp = lookupList(groupVal, 0, mixGrp)
+   val stringData  = ("val
+   grp"^(Int.toString(lookUp))^"=grp"^(Int.toString(lookUp))^"@["^pid^"];\n") 
+  val text = writeFile personPath stringData  
+  in addSinglePersonToGroup(pid, (tl mixGrp))
+  end;
